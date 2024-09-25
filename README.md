@@ -2,7 +2,7 @@
 This game is a work in progress contractor job for "Speed Days" (https://www.takt-magazin.de/magazin/speeddays_211078) - but never got released.
 
 Technologies: 
-  * JME Engine
+  * JME Engine 0.8
   * OdeJava & ODE Physics
   * LWJGL 1.x
 
