@@ -22,10 +22,8 @@ P.S. You have to use the clutch to change gears!!!
 
 ![ScreenShot](https://raw.github.com/tbruckschlegel//java_racer/main/shot1.png)
 
-
-[![Gameplay video]
-(https://raw.github.com/tbruckschlegel//java_racer/main/shot3.png)]
-(https://youtu.be/ylgMphfeElM)
+Gameplay video
+https://youtu.be/ylgMphfeElM
 
 
 
