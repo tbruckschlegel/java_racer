@@ -1,0 +1,15 @@
+[Jar files]
+/home/tommy/workspace/racer
+/home/tommy/workspace/jme
+/home/tommy/workspace/jmephysics
+/home/tommy/workspace/lwjgl
+[Source dirs]
+/home/tommy/workspace/repack
+/home/tommy/workspace/jme
+/home/tommy/workspace/jmephysics
+/home/tommy/workspace/lwjgl
+[Aux classpath entries]
+/home/tommy/workspace/repack
+/home/tommy/workspace/jme
+/home/tommy/workspace/jmephysics
+/home/tommy/workspace/lwjgl

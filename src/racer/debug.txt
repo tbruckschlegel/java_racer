@@ -1,0 +1,478 @@
+07.07.2005 08:57:03 com.jme.app.MultiThreadingGameApp start
+INFO: Application started.
+07.07.2005 08:57:03 com.jme.system.PropertiesIO <init>
+INFO: PropertiesIO created
+07.07.2005 08:57:03 com.jme.system.PropertiesIO load
+INFO: Read properties
+07.07.2005 08:57:13 com.jme.system.lwjgl.LWJGLDisplaySystem <init>
+INFO: LWJGL Display System created.
+07.07.2005 08:57:13 com.jme.system.PropertiesIO save
+INFO: Saved properties
+07.07.2005 08:57:14 com.jme.app.MultiThreadingGameApp setFrameRate
+INFO: Attempting to run at 120 fps.
+07.07.2005 08:57:14 com.jme.system.lwjgl.LWJGLDisplaySystem <init>
+INFO: LWJGL Display System created.
+07.07.2005 08:57:14 com.jme.renderer.lwjgl.LWJGLRenderer <init>
+INFO: LWJGLRenderer created. W:  576H: 432
+07.07.2005 08:57:14 com.jme.renderer.AbstractCamera <init>
+INFO: Camera created.
+07.07.2005 08:57:14 com.jme.app.MultiThreadingGameApp setFrameRate
+INFO: Attempting to run at 120 fps.
+07.07.2005 08:57:14 com.jme.scene.Node <init>
+INFO: Node created.
+07.07.2005 08:57:14 com.jme.scene.Node <init>
+INFO: Node created.
+07.07.2005 08:57:14 org.odejava.Odejava <clinit>
+INFO: Odejava version 0.2.4
+07.07.2005 08:57:14 com.jmex.physics.PhysicsWorld create
+INFO: Created Physics World
+07.07.2005 08:57:14 com.jmex.physics.PhysicsWorld setStepSize
+INFO: Setting StepSize of PhysicsWorld to : 0.033333335
+07.07.2005 08:57:14 com.jmex.physics.PhysicsWorld setUpdateRate
+INFO: Changed the number of updates in a second of PhysicsWorld to: -1
+07.07.2005 08:57:14 com.jmex.physics.PhysicsWorld setStepFunction
+INFO: Setting the Physics Solver to use StepQuick
+07.07.2005 08:57:14 com.jme.scene.Node <init>
+INFO: Node created.
+07.07.2005 08:57:14 com.jme.scene.Node attachChild
+INFO: Child (north) attached to this node (skybox)
+07.07.2005 08:57:14 com.jme.scene.Node attachChild
+INFO: Child (south) attached to this node (skybox)
+07.07.2005 08:57:14 com.jme.scene.Node attachChild
+INFO: Child (east) attached to this node (skybox)
+07.07.2005 08:57:14 com.jme.scene.Node attachChild
+INFO: Child (west) attached to this node (skybox)
+07.07.2005 08:57:14 com.jme.scene.Node attachChild
+INFO: Child (up) attached to this node (skybox)
+07.07.2005 08:57:14 com.jme.scene.Node attachChild
+INFO: Child (down) attached to this node (skybox)
+07.07.2005 08:57:16 com.jme.scene.Node attachChild
+INFO: Child (skybox) attached to this node (rootNode)
+07.07.2005 08:57:17 com.jme.scene.Node <init>
+INFO: Node created.
+07.07.2005 08:57:17 com.jme.scene.Node <init>
+INFO: Node created.
+07.07.2005 08:57:17 com.jme.scene.Node <init>
+INFO: Node created.
+07.07.2005 08:57:21 com.jme.scene.Node attachChild
+INFO: Child (backway) attached to this node (TDS Scene)
+07.07.2005 08:57:26 com.jme.scene.Node attachChild
+INFO: Child (main) attached to this node (TDS Scene)
+07.07.2005 08:57:30 com.jme.scene.Node attachChild
+INFO: Child (turn1) attached to this node (TDS Scene)
+07.07.2005 08:57:30 com.jme.scene.Node attachChild
+INFO: Child (turn2) attached to this node (TDS Scene)
+07.07.2005 08:57:30 com.jme.scene.Node attachChild
+INFO: Child (Box01) attached to this node (TDS Scene)
+07.07.2005 08:57:30 com.jme.scene.Node attachChild
+INFO: Child (TDS Scene) attached to this node (XML loaded scene)
+07.07.2005 08:57:30 com.jme.scene.Node attachChild
+INFO: Child (XML loaded scene) attached to this node (XML loaded scene)
+07.07.2005 08:57:30 com.jme.scene.Node attachChild
+INFO: Child (XML loaded scene) attached to this node (rootNode)
+07.07.2005 08:57:30 com.jmex.physics.PhysicsWorld addObject
+INFO: Physics Object (XML loaded scene) has been added to the PhysicsWorld
+07.07.2005 08:57:30 com.jme.scene.Node <init>
+INFO: Node created.
+07.07.2005 08:57:30 com.jme.scene.Node <init>
+INFO: Node created.
+07.07.2005 08:57:31 com.jme.scene.Node attachChild
+INFO: Child (terrain) attached to this node (terrain)
+07.07.2005 08:57:31 com.jme.scene.Node attachChild
+INFO: Child (terrain) attached to this node (XML loaded scene)
+07.07.2005 08:57:34 com.jme.scene.TriMesh reconstruct
+INFO: TriMesh reconstructed.
+07.07.2005 08:57:35 com.jmex.physics.PhysicsWorld addObject
+INFO: Physics Object (XML loaded scene) has been added to the PhysicsWorld
+07.07.2005 08:57:35 com.jme.scene.Node attachChild
+INFO: Child (XML loaded scene) attached to this node (rootNode)
+07.07.2005 08:57:35 com.jme.scene.Node attachChild
+INFO: Child (startline) attached to this node (rootNode)
+07.07.2005 08:57:35 com.jme.scene.Node attachChild
+INFO: Child (finishline) attached to this node (rootNode)
+07.07.2005 08:57:35 com.jme.scene.Node attachChild
+INFO: Child (referenceline) attached to this node (rootNode)
+07.07.2005 08:57:35 com.jme.scene.Node <init>
+INFO: Node created.
+07.07.2005 08:57:35 com.jme.scene.Node <init>
+INFO: Node created.
+07.07.2005 08:57:35 com.jme.scene.Node <init>
+INFO: Node created.
+07.07.2005 08:57:35 com.jme.scene.Node <init>
+INFO: Node created.
+07.07.2005 08:57:35 com.jme.scene.Node attachChild
+INFO: Child (tyre) attached to this node (ms3d file)
+07.07.2005 08:57:35 com.jme.scene.Node attachChild
+INFO: Child (wheel) attached to this node (ms3d file)
+07.07.2005 08:57:35 com.jme.scene.Node attachChild
+INFO: Child (ms3d file) attached to this node (XML loaded scene)
+07.07.2005 08:57:35 com.jme.scene.Node attachChild
+INFO: Child (XML loaded scene) attached to this node (XML loaded scene)
+07.07.2005 08:57:35 com.jme.scene.Node <init>
+INFO: Node created.
+07.07.2005 08:57:35 com.jme.scene.Node <init>
+INFO: Node created.
+07.07.2005 08:57:35 com.jme.scene.Node <init>
+INFO: Node created.
+07.07.2005 08:57:35 com.jme.scene.Node attachChild
+INFO: Child (tyrecopy) attached to this node (ms3d filecopy)
+07.07.2005 08:57:35 com.jme.scene.Node attachChild
+INFO: Child (wheelcopy) attached to this node (ms3d filecopy)
+07.07.2005 08:57:35 com.jme.scene.Node attachChild
+INFO: Child (ms3d filecopy) attached to this node (XML loaded scenecopy)
+07.07.2005 08:57:35 com.jme.scene.Node attachChild
+INFO: Child (XML loaded scenecopy) attached to this node (XML loaded scenecopy)
+07.07.2005 08:57:35 com.jme.scene.Node <init>
+INFO: Node created.
+07.07.2005 08:57:35 com.jme.scene.Node attachChild
+INFO: Child (Wheel 0) attached to this node (Wheel 0)
+07.07.2005 08:57:36 com.jme.scene.TriMesh reconstruct
+INFO: TriMesh reconstructed.
+07.07.2005 08:57:36 com.jme.scene.TriMesh reconstruct
+INFO: TriMesh reconstructed.
+07.07.2005 08:57:36 com.jme.scene.Node attachChild
+INFO: Child (Wheel 0) attached to this node (car)
+07.07.2005 08:57:36 com.jme.scene.Node <init>
+INFO: Node created.
+07.07.2005 08:57:36 com.jme.scene.Node <init>
+INFO: Node created.
+07.07.2005 08:57:36 com.jme.scene.Node <init>
+INFO: Node created.
+07.07.2005 08:57:36 com.jme.scene.Node attachChild
+INFO: Child (tyrecopy) attached to this node (ms3d filecopy)
+07.07.2005 08:57:36 com.jme.scene.Node attachChild
+INFO: Child (wheelcopy) attached to this node (ms3d filecopy)
+07.07.2005 08:57:36 com.jme.scene.Node attachChild
+INFO: Child (ms3d filecopy) attached to this node (XML loaded scenecopy)
+07.07.2005 08:57:36 com.jme.scene.Node attachChild
+INFO: Child (XML loaded scenecopy) attached to this node (XML loaded scenecopy)
+07.07.2005 08:57:36 com.jme.scene.Node <init>
+INFO: Node created.
+07.07.2005 08:57:36 com.jme.scene.Node attachChild
+INFO: Child (Wheel 1) attached to this node (Wheel 1)
+07.07.2005 08:57:36 com.jme.scene.TriMesh reconstruct
+INFO: TriMesh reconstructed.
+07.07.2005 08:57:36 com.jme.scene.TriMesh reconstruct
+INFO: TriMesh reconstructed.
+07.07.2005 08:57:36 com.jme.scene.Node attachChild
+INFO: Child (Wheel 1) attached to this node (car)
+07.07.2005 08:57:36 com.jme.scene.Node <init>
+INFO: Node created.
+07.07.2005 08:57:36 com.jme.scene.Node <init>
+INFO: Node created.
+07.07.2005 08:57:36 com.jme.scene.Node <init>
+INFO: Node created.
+07.07.2005 08:57:36 com.jme.scene.Node attachChild
+INFO: Child (tyrecopy) attached to this node (ms3d filecopy)
+07.07.2005 08:57:36 com.jme.scene.Node attachChild
+INFO: Child (wheelcopy) attached to this node (ms3d filecopy)
+07.07.2005 08:57:36 com.jme.scene.Node attachChild
+INFO: Child (ms3d filecopy) attached to this node (XML loaded scenecopy)
+07.07.2005 08:57:36 com.jme.scene.Node attachChild
+INFO: Child (XML loaded scenecopy) attached to this node (XML loaded scenecopy)
+07.07.2005 08:57:36 com.jme.scene.Node <init>
+INFO: Node created.
+07.07.2005 08:57:36 com.jme.scene.Node attachChild
+INFO: Child (Wheel 2) attached to this node (Wheel 2)
+07.07.2005 08:57:36 com.jme.scene.TriMesh reconstruct
+INFO: TriMesh reconstructed.
+07.07.2005 08:57:36 com.jme.scene.TriMesh reconstruct
+INFO: TriMesh reconstructed.
+07.07.2005 08:57:36 com.jme.scene.Node attachChild
+INFO: Child (Wheel 2) attached to this node (car)
+07.07.2005 08:57:36 com.jme.scene.Node <init>
+INFO: Node created.
+07.07.2005 08:57:36 com.jme.scene.Node <init>
+INFO: Node created.
+07.07.2005 08:57:36 com.jme.scene.Node <init>
+INFO: Node created.
+07.07.2005 08:57:36 com.jme.scene.Node attachChild
+INFO: Child (tyrecopy) attached to this node (ms3d filecopy)
+07.07.2005 08:57:36 com.jme.scene.Node attachChild
+INFO: Child (wheelcopy) attached to this node (ms3d filecopy)
+07.07.2005 08:57:36 com.jme.scene.Node attachChild
+INFO: Child (ms3d filecopy) attached to this node (XML loaded scenecopy)
+07.07.2005 08:57:36 com.jme.scene.Node attachChild
+INFO: Child (XML loaded scenecopy) attached to this node (XML loaded scenecopy)
+07.07.2005 08:57:36 com.jme.scene.Node <init>
+INFO: Node created.
+07.07.2005 08:57:36 com.jme.scene.Node attachChild
+INFO: Child (Wheel 3) attached to this node (Wheel 3)
+07.07.2005 08:57:36 com.jme.scene.TriMesh reconstruct
+INFO: TriMesh reconstructed.
+07.07.2005 08:57:36 com.jme.scene.TriMesh reconstruct
+INFO: TriMesh reconstructed.
+07.07.2005 08:57:36 com.jme.scene.Node attachChild
+INFO: Child (Wheel 3) attached to this node (car)
+07.07.2005 08:57:36 com.jme.scene.Node <init>
+INFO: Node created.
+07.07.2005 08:57:36 com.jme.scene.Node <init>
+INFO: Node created.
+07.07.2005 08:57:36 com.jme.scene.Node <init>
+INFO: Node created.
+07.07.2005 08:57:36 com.jme.scene.Node attachChild
+INFO: Child (aluminium) attached to this node (ms3d file)
+07.07.2005 08:57:36 com.jme.scene.Node attachChild
+INFO: Child (backlght) attached to this node (ms3d file)
+07.07.2005 08:57:36 com.jme.scene.Node attachChild
+INFO: Child (black) attached to this node (ms3d file)
+07.07.2005 08:57:37 com.jme.scene.Node attachChild
+INFO: Child (body) attached to this node (ms3d file)
+07.07.2005 08:57:37 com.jme.scene.Node attachChild
+INFO: Child (braklght) attached to this node (ms3d file)
+07.07.2005 08:57:37 com.jme.scene.Node attachChild
+INFO: Child (chrome) attached to this node (ms3d file)
+07.07.2005 08:57:37 com.jme.scene.Node attachChild
+INFO: Child (fronlght) attached to this node (ms3d file)
+07.07.2005 08:57:37 com.jme.scene.Node attachChild
+INFO: Child (glass) attached to this node (ms3d file)
+07.07.2005 08:57:37 com.jme.scene.Node attachChild
+INFO: Child (glassblk) attached to this node (ms3d file)
+07.07.2005 08:57:37 com.jme.scene.Node attachChild
+INFO: Child (inter_w) attached to this node (ms3d file)
+07.07.2005 08:57:37 com.jme.scene.Node attachChild
+INFO: Child (interior) attached to this node (ms3d file)
+07.07.2005 08:57:37 com.jme.scene.Node attachChild
+INFO: Child (mirror) attached to this node (ms3d file)
+07.07.2005 08:57:37 com.jme.scene.Node attachChild
+INFO: Child (nplate) attached to this node (ms3d file)
+07.07.2005 08:57:37 com.jme.scene.Node attachChild
+INFO: Child (plastic) attached to this node (ms3d file)
+07.07.2005 08:57:37 com.jme.scene.Node attachChild
+INFO: Child (rearlght) attached to this node (ms3d file)
+07.07.2005 08:57:37 com.jme.scene.Node attachChild
+INFO: Child (turnlght) attached to this node (ms3d file)
+07.07.2005 08:57:37 com.jme.scene.Node attachChild
+INFO: Child (ms3d file) attached to this node (XML loaded scene)
+07.07.2005 08:57:37 com.jme.scene.Node attachChild
+INFO: Child (XML loaded scene) attached to this node (XML loaded scene)
+07.07.2005 08:57:37 com.jme.scene.TriMesh reconstruct
+INFO: TriMesh reconstructed.
+07.07.2005 08:57:37 com.jme.scene.TriMesh reconstruct
+INFO: TriMesh reconstructed.
+07.07.2005 08:57:37 com.jme.scene.TriMesh reconstruct
+INFO: TriMesh reconstructed.
+07.07.2005 08:57:37 com.jme.scene.TriMesh reconstruct
+INFO: TriMesh reconstructed.
+07.07.2005 08:57:37 com.jme.scene.TriMesh reconstruct
+INFO: TriMesh reconstructed.
+07.07.2005 08:57:37 com.jme.scene.TriMesh reconstruct
+INFO: TriMesh reconstructed.
+07.07.2005 08:57:37 com.jme.scene.TriMesh reconstruct
+INFO: TriMesh reconstructed.
+07.07.2005 08:57:37 com.jme.scene.TriMesh reconstruct
+INFO: TriMesh reconstructed.
+07.07.2005 08:57:37 com.jme.scene.TriMesh reconstruct
+INFO: TriMesh reconstructed.
+07.07.2005 08:57:37 com.jme.scene.TriMesh reconstruct
+INFO: TriMesh reconstructed.
+07.07.2005 08:57:38 com.jme.scene.TriMesh reconstruct
+INFO: TriMesh reconstructed.
+07.07.2005 08:57:38 com.jme.scene.TriMesh reconstruct
+INFO: TriMesh reconstructed.
+07.07.2005 08:57:39 com.jme.scene.TriMesh reconstruct
+INFO: TriMesh reconstructed.
+07.07.2005 08:57:39 com.jme.scene.TriMesh reconstruct
+INFO: TriMesh reconstructed.
+07.07.2005 08:57:39 com.jme.scene.TriMesh reconstruct
+INFO: TriMesh reconstructed.
+07.07.2005 08:57:39 com.jme.scene.TriMesh reconstruct
+INFO: TriMesh reconstructed.
+07.07.2005 08:57:39 com.jme.scene.Node attachChild
+INFO: Child (Chassis) attached to this node (car)
+07.07.2005 08:57:39 com.jme.scene.Node attachChild
+INFO: Child (car) attached to this node (rootNode)
+07.07.2005 08:57:39 com.jmex.physics.PhysicsWorld addObject
+INFO: Physics Object (Chassis) has been added to the PhysicsWorld
+07.07.2005 08:57:39 com.jmex.physics.PhysicsWorld addObject
+INFO: Physics Object (Wheel 0) has been added to the PhysicsWorld
+07.07.2005 08:57:39 com.jmex.physics.PhysicsWorld addObject
+INFO: Physics Object (Wheel 1) has been added to the PhysicsWorld
+07.07.2005 08:57:39 com.jmex.physics.PhysicsWorld addObject
+INFO: Physics Object (Wheel 2) has been added to the PhysicsWorld
+07.07.2005 08:57:39 com.jmex.physics.PhysicsWorld addObject
+INFO: Physics Object (Wheel 3) has been added to the PhysicsWorld
+07.07.2005 08:57:39 com.jme.scene.Node <init>
+INFO: Node created.
+07.07.2005 08:57:39 com.jme.scene.Node <init>
+INFO: Node created.
+07.07.2005 08:57:39 com.jme.scene.Node attachChild
+INFO: Child (particles) attached to this node (smoke0)
+07.07.2005 08:57:39 com.jme.scene.Node <init>
+INFO: Node created.
+07.07.2005 08:57:39 com.jme.scene.Node attachChild
+INFO: Child (particles) attached to this node (smoke1)
+07.07.2005 08:57:39 com.jme.scene.Node <init>
+INFO: Node created.
+07.07.2005 08:57:39 com.jme.scene.Node attachChild
+INFO: Child (particles) attached to this node (smoke2)
+07.07.2005 08:57:39 com.jme.scene.Node <init>
+INFO: Node created.
+07.07.2005 08:57:39 com.jme.scene.Node attachChild
+INFO: Child (particles) attached to this node (smoke3)
+07.07.2005 08:57:43 com.jme.scene.Node <init>
+INFO: Node created.
+07.07.2005 08:57:43 com.jme.scene.Node attachChild
+INFO: Child (gui text) attached to this node (rootNode)
+07.07.2005 08:57:43 com.jme.scene.Node <init>
+INFO: Node created.
+07.07.2005 08:57:43 com.jme.scene.Node <init>
+INFO: Node created.
+07.07.2005 08:57:43 com.jme.scene.Node <init>
+INFO: Node created.
+07.07.2005 08:57:43 com.jme.scene.Node attachChild
+INFO: Child (playQuad) attached to this node (start)
+07.07.2005 08:57:43 com.jme.scene.Node attachChild
+INFO: Child (playQuad) attached to this node (instructions)
+07.07.2005 08:57:43 com.jme.scene.Node attachChild
+INFO: Child (Quad) attached to this node (gameOver)
+07.07.2005 08:57:43 com.jme.scene.Node attachChild
+INFO: Child (gear) attached to this node (gui text)
+07.07.2005 08:57:43 com.jme.scene.Node attachChild
+INFO: Child (bestTimerText) attached to this node (gui text)
+07.07.2005 08:57:43 com.jme.scene.Node attachChild
+INFO: Child (timerText) attached to this node (gui text)
+07.07.2005 08:57:43 com.jme.scene.Node attachChild
+INFO: Child (fps/Speed) attached to this node (gui text)
+07.07.2005 08:57:44 com.jme.scene.Node <init>
+INFO: Node created.
+07.07.2005 08:57:44 com.jme.scene.Node attachChild
+INFO: Child (gauge) attached to this node (rpm)
+07.07.2005 08:57:44 com.jme.scene.Node attachChild
+INFO: Child (pointer) attached to this node (rpm)
+07.07.2005 08:57:44 com.jme.scene.Node attachChild
+INFO: Child (rpm) attached to this node (rootNode)
+07.07.2005 08:57:45 com.jme.scene.Node <init>
+INFO: Node created.
+07.07.2005 08:57:45 com.jme.scene.Node attachChild
+INFO: Child (gauge) attached to this node (speed)
+07.07.2005 08:57:45 com.jme.scene.Node attachChild
+INFO: Child (pointer) attached to this node (speed)
+07.07.2005 08:57:45 com.jme.scene.Node attachChild
+INFO: Child (speed) attached to this node (rootNode)
+07.07.2005 08:57:45 com.jme.scene.Node <init>
+INFO: Node created.
+07.07.2005 08:57:45 com.jme.scene.Node attachChild
+INFO: Child (gauge) attached to this node (clutch)
+07.07.2005 08:57:45 com.jme.scene.Node attachChild
+INFO: Child (pointer) attached to this node (clutch)
+07.07.2005 08:57:45 com.jme.scene.Node attachChild
+INFO: Child (clutch) attached to this node (rootNode)
+07.07.2005 08:57:45 com.jme.scene.Node <init>
+INFO: Node created.
+07.07.2005 08:57:45 com.jme.scene.Node attachChild
+INFO: Child (logo) attached to this node (tagHeuer)
+07.07.2005 08:57:45 com.jme.scene.Node attachChild
+INFO: Child (tagHeuer) attached to this node (rootNode)
+07.07.2005 08:57:45 com.jme.scene.Node <init>
+INFO: Node created.
+07.07.2005 08:57:45 com.jme.scene.Node attachChild
+INFO: Child (logo) attached to this node (speedDays)
+07.07.2005 08:57:45 com.jme.scene.Node attachChild
+INFO: Child (speedDays) attached to this node (rootNode)
+07.07.2005 08:57:45 com.jme.scene.Node <init>
+INFO: Node created.
+07.07.2005 08:57:45 com.jme.scene.Node <init>
+INFO: Node created.
+07.07.2005 08:57:45 com.jme.scene.Node attachChild
+INFO: Child (sf0) attached to this node (flare)
+07.07.2005 08:57:45 com.jme.scene.Node attachChild
+INFO: Child (sf1) attached to this node (flare)
+07.07.2005 08:57:45 com.jme.scene.Node attachChild
+INFO: Child (sf2) attached to this node (flare)
+07.07.2005 08:57:45 com.jme.scene.Node attachChild
+INFO: Child (sf3) attached to this node (flare)
+07.07.2005 08:57:45 com.jme.scene.Node attachChild
+INFO: Child (sf4) attached to this node (flare)
+07.07.2005 08:57:45 com.jme.scene.Node attachChild
+INFO: Child (sf5) attached to this node (flare)
+07.07.2005 08:57:45 com.jme.scene.Node attachChild
+INFO: Child (sf6) attached to this node (flare)
+07.07.2005 08:57:45 com.jme.scene.Node attachChild
+INFO: Child (sf7) attached to this node (flare)
+07.07.2005 08:57:45 com.jme.scene.Node attachChild
+INFO: Child (sf8) attached to this node (flare)
+07.07.2005 08:57:45 com.jme.scene.Node attachChild
+INFO: Child (sf9) attached to this node (flare)
+07.07.2005 08:57:45 com.jme.scene.Node attachChild
+INFO: Child (sf10) attached to this node (flare)
+07.07.2005 08:57:45 com.jme.scene.Node attachChild
+INFO: Child (sf11) attached to this node (flare)
+07.07.2005 08:57:45 com.jme.scene.Node attachChild
+INFO: Child (sf12) attached to this node (flare)
+07.07.2005 08:57:45 com.jme.scene.Node attachChild
+INFO: Child (sf13) attached to this node (flare)
+07.07.2005 08:57:45 com.jme.scene.Node attachChild
+INFO: Child (sf14) attached to this node (flare)
+07.07.2005 08:57:45 com.jme.scene.Node attachChild
+INFO: Child (mainFlare) attached to this node (flare)
+07.07.2005 08:57:45 com.jme.scene.Node attachChild
+INFO: Child (light) attached to this node (rootNode)
+07.07.2005 08:57:45 com.jme.scene.Node attachChild
+INFO: Child (flare) attached to this node (rootNode)
+07.07.2005 08:57:45 com.jme.app.MultiThreadingGameApp calibrateSleepDuration
+INFO: calibrating sleep counter...0.0%
+07.07.2005 08:57:46 com.jme.app.MultiThreadingGameApp calibrateSleepDuration
+INFO: calibrating sleep counter...3.125%
+07.07.2005 08:57:46 com.jme.app.MultiThreadingGameApp calibrateSleepDuration
+INFO: calibrating sleep counter...6.25%
+07.07.2005 08:57:46 com.jme.app.MultiThreadingGameApp calibrateSleepDuration
+INFO: calibrating sleep counter...9.375%
+07.07.2005 08:57:46 com.jme.app.MultiThreadingGameApp calibrateSleepDuration
+INFO: calibrating sleep counter...12.5%
+07.07.2005 08:57:46 com.jme.app.MultiThreadingGameApp calibrateSleepDuration
+INFO: calibrating sleep counter...15.625%
+07.07.2005 08:57:46 com.jme.app.MultiThreadingGameApp calibrateSleepDuration
+INFO: calibrating sleep counter...18.75%
+07.07.2005 08:57:46 com.jme.app.MultiThreadingGameApp calibrateSleepDuration
+INFO: calibrating sleep counter...21.875%
+07.07.2005 08:57:46 com.jme.app.MultiThreadingGameApp calibrateSleepDuration
+INFO: calibrating sleep counter...25.0%
+07.07.2005 08:57:46 com.jme.app.MultiThreadingGameApp calibrateSleepDuration
+INFO: calibrating sleep counter...28.125%
+07.07.2005 08:57:46 com.jme.app.MultiThreadingGameApp calibrateSleepDuration
+INFO: calibrating sleep counter...31.25%
+07.07.2005 08:57:47 com.jme.app.MultiThreadingGameApp calibrateSleepDuration
+INFO: calibrating sleep counter...34.375%
+07.07.2005 08:57:47 com.jme.app.MultiThreadingGameApp calibrateSleepDuration
+INFO: calibrating sleep counter...37.5%
+07.07.2005 08:57:47 com.jme.app.MultiThreadingGameApp calibrateSleepDuration
+INFO: calibrating sleep counter...40.625%
+07.07.2005 08:57:47 com.jme.app.MultiThreadingGameApp calibrateSleepDuration
+INFO: calibrating sleep counter...43.75%
+07.07.2005 08:57:47 com.jme.app.MultiThreadingGameApp calibrateSleepDuration
+INFO: calibrating sleep counter...46.875%
+07.07.2005 08:57:47 com.jme.app.MultiThreadingGameApp calibrateSleepDuration
+INFO: calibrating sleep counter...50.0%
+07.07.2005 08:57:47 com.jme.app.MultiThreadingGameApp calibrateSleepDuration
+INFO: calibrating sleep counter...53.125%
+07.07.2005 08:57:47 com.jme.app.MultiThreadingGameApp calibrateSleepDuration
+INFO: calibrating sleep counter...56.25%
+07.07.2005 08:57:47 com.jme.app.MultiThreadingGameApp calibrateSleepDuration
+INFO: calibrating sleep counter...59.375%
+07.07.2005 08:57:48 com.jme.app.MultiThreadingGameApp calibrateSleepDuration
+INFO: calibrating sleep counter...62.5%
+07.07.2005 08:57:48 com.jme.app.MultiThreadingGameApp calibrateSleepDuration
+INFO: calibrating sleep counter...65.625%
+07.07.2005 08:57:48 com.jme.app.MultiThreadingGameApp calibrateSleepDuration
+INFO: calibrating sleep counter...68.75%
+07.07.2005 08:57:48 com.jme.app.MultiThreadingGameApp calibrateSleepDuration
+INFO: calibrating sleep counter...71.875%
+07.07.2005 08:57:48 com.jme.app.MultiThreadingGameApp calibrateSleepDuration
+INFO: calibrating sleep counter...75.0%
+07.07.2005 08:57:48 com.jme.app.MultiThreadingGameApp calibrateSleepDuration
+INFO: calibrating sleep counter...78.125%
+07.07.2005 08:57:48 com.jme.app.MultiThreadingGameApp calibrateSleepDuration
+INFO: calibrating sleep counter...81.25%
+07.07.2005 08:57:48 com.jme.app.MultiThreadingGameApp calibrateSleepDuration
+INFO: calibrating sleep counter...84.375%
+07.07.2005 08:57:48 com.jme.app.MultiThreadingGameApp calibrateSleepDuration
+INFO: calibrating sleep counter...87.5%
+07.07.2005 08:57:48 com.jme.app.MultiThreadingGameApp calibrateSleepDuration
+INFO: calibrating sleep counter...90.625%
+07.07.2005 08:57:49 com.jme.app.MultiThreadingGameApp calibrateSleepDuration
+INFO: calibrating sleep counter...93.75%
+07.07.2005 08:57:49 com.jme.app.MultiThreadingGameApp calibrateSleepDuration
+INFO: calibrating sleep counter...96.875%
+07.07.2005 08:58:04 com.jme.app.MultiThreadingGameApp start
+INFO: Application ending.

@@ -1,0 +1,6 @@
+08.06.2005 14:47:57 com.jme.app.BaseGame start
+INFO: Application started.
+08.06.2005 14:47:57 com.jme.system.PropertiesIO <init>
+INFO: PropertiesIO created
+08.06.2005 14:47:57 com.jme.system.PropertiesIO load
+WARNUNG: Could not load properties: java.io.FileNotFoundException: properties.cfg (No such file or directory)

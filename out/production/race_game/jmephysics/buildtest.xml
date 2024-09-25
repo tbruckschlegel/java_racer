@@ -1,0 +1,67 @@
+<project name="jME Physics Tests" default="jar" basedir=".">
+
+	<property name="src" value="src" />
+	<property name="build" value="build" />
+	<property name="deploy" value="deploy" />
+	<property name="javadoc" value="javadoc" />
+
+	<path id="build.classpath.ode">
+        <fileset dir="./lib">
+            <include name="*.jar"/>
+        </fileset>
+	</path>
+	<path id="build.classpath.jmex">
+        <fileset dir="./lib">
+            <include name="*.jar"/>
+        </fileset>
+		<pathelement location="${build}" />
+	</path>
+
+
+	<target name="prepare" description="creates build and deploy directories">
+		<mkdir dir="${build}" />
+		<mkdir dir="${deploy}" />
+		<tstamp />
+	</target>
+
+	<target name="deploy" depends="compile,jar" description="builds and puts jar file in deploy directory." />
+
+	<target name="clean" description="Removes build and deploy directories">
+		<delete dir="${build}" />
+		<delete>
+			<fileset dir="." casesensitive="no" includes="**/thumbs.db" />
+		</delete>
+	</target>
+
+
+	<target name="compile" description="Compiles source into build directory" depends="prepare">
+		<javac srcdir="${src}/org" destdir="${build}" optimize="true" debug="false">
+			<classpath refid="build.classpath.ode" />
+		</javac>
+		<javac srcdir="${src}/com" destdir="${build}" optimize="true" debug="false">
+			<classpath refid="build.classpath.jmex" />
+		</javac>
+		<javac srcdir="${src}/jmextest" destdir="${build}" optimize="true" debug="false">
+			<classpath refid="build.classpath.jmex" />
+		</javac>
+	</target>
+
+	<target name="javadoc" depends="compile" description="generate javadocs from sourcecode">
+		<mkdir dir="${javadoc}" />
+		<javadoc sourcepath="${src}" source="1.4" destdir="${javadoc}" packagenames="*">
+			<link href="http://java.sun.com/j2se/1.4.2/docs/api/" />
+			<classpath refid="build.classpath" />
+		</javadoc>
+	</target>
+
+	<target name="jar" description="Jars the library" depends="compile">
+		<jar destfile="${deploy}/jmephysics-test.jar">
+			<fileset dir="${build}" />
+			<!--<fileset dir="samplemodels"/>-->
+			<!-- <fileset dir="${src}"/> -->
+			<manifest>
+				<attribute name="Title" value="jME Physics" />
+			</manifest>
+		</jar>
+	</target>
+</project>

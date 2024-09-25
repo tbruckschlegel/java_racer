@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="0.8.8" timestamp="1114497614026">
+  <Project filename="&lt;&lt;unnamed project&gt;&gt;">
+    <Jar>/home/tommy/workspace/jmephysics/bin/com/jmex/physics/DynamicPhysicsObject.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/com/jmex/physics/PhysicsDisablingController.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/com/jmex/physics/PhysicsEntityFactory.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/com/jmex/physics/PhysicsObject.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/com/jmex/physics/PhysicsSynchronizer.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/com/jmex/physics/PhysicsWorld.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/com/jmex/physics/StaticPhysicsObject.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/com/jmex/physics/contact/PhysicsCallBack.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/com/jmex/physics/contact/PhysicsCollision.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/com/jmex/physics/contact/PhysicsCollisionResults.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/com/jmex/physics/effects/particles/PhysicsParticleManager.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/com/jmex/physics/joints/BallJoint.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/com/jmex/physics/joints/Hinge2Joint.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/com/jmex/physics/joints/HingeJoint.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/com/jmex/physics/joints/Joint.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/com/jmex/physics/ragdoll/Humanoid.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/com/jmex/physics/ragdoll/Skeleton.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/com/jmex/physics/types/PhysicsBox.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/com/jmex/physics/types/PhysicsCone.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/com/jmex/physics/types/PhysicsCylinder.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/com/jmex/physics/types/PhysicsSphere.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/com/jmex/physics/types/PhysicsType.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/com/jmex/physics/vehicle/Car.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/com/jmex/physics/vehicle/Clutch.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/com/jmex/physics/vehicle/GearBox.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/com/jmex/physics/vehicle/NmCurve.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/com/jmex/physics/vehicle/Vehicle.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/org/odejava/Body.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/org/odejava/Geom.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/org/odejava/GeomBox.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/org/odejava/GeomCappedCylinder.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/org/odejava/GeomCone.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/org/odejava/GeomCylinder.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/org/odejava/GeomPlane.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/org/odejava/GeomRay.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/org/odejava/GeomSphere.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/org/odejava/GeomTransform.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/org/odejava/GeomTriMesh.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/org/odejava/HashSpace.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/org/odejava/IllegalOdejavaOperation.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/org/odejava/Joint.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/org/odejava/JointAMotor.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/org/odejava/JointBall.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/org/odejava/JointFeedback.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/org/odejava/JointFixed.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/org/odejava/JointGroup.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/org/odejava/JointHinge.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/org/odejava/JointHinge2.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/org/odejava/JointSlider.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/org/odejava/JointUniversal.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/org/odejava/Odejava.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/org/odejava/Placeable.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/org/odejava/PlaceableGeom.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/org/odejava/QuadTreeSpace.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/org/odejava/SimpleSpace.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/org/odejava/Space.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/org/odejava/World.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/org/odejava/collision/BulkContact.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/org/odejava/collision/Collision.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/org/odejava/collision/Contact.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/org/odejava/collision/JavaCollision.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/org/odejava/collision/NativeCollision.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/org/odejava/collision/PureJavaCollision.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/org/odejava/ode/Ode.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/org/odejava/ode/OdeConstants.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/org/odejava/ode/OdeJNI.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/org/odejava/ode/SWIGTYPE_p_a_4__float.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/org/odejava/ode/SWIGTYPE_p_dBodyID.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/org/odejava/ode/SWIGTYPE_p_dContact.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/org/odejava/ode/SWIGTYPE_p_dContactGeom.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/org/odejava/ode/SWIGTYPE_p_dGeomID.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/org/odejava/ode/SWIGTYPE_p_dJointFeedback.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/org/odejava/ode/SWIGTYPE_p_dJointGroupID.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/org/odejava/ode/SWIGTYPE_p_dJointID.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/org/odejava/ode/SWIGTYPE_p_dMass.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/org/odejava/ode/SWIGTYPE_p_dSpaceID.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/org/odejava/ode/SWIGTYPE_p_dWorldID.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/org/odejava/ode/SWIGTYPE_p_dxJoint.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/org/odejava/ode/SWIGTYPE_p_dxJointContact.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/org/odejava/ode/SWIGTYPE_p_dxTriMeshData.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/org/odejava/ode/SWIGTYPE_p_f_dGeomID__void.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/org/odejava/ode/SWIGTYPE_p_f_dGeomID_a_6__float__void.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/org/odejava/ode/SWIGTYPE_p_f_dGeomID_dGeomID_a_6__float__int.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/org/odejava/ode/SWIGTYPE_p_f_dGeomID_dGeomID_int__int.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/org/odejava/ode/SWIGTYPE_p_f_dGeomID_dGeomID_int_float_float__int.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/org/odejava/ode/SWIGTYPE_p_f_dGeomID_dGeomID_p_q_const__int_int__void.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/org/odejava/ode/SWIGTYPE_p_f_int__p_f_dGeomID_dGeomID_int_p_dContactGeom_int__int.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/org/odejava/ode/SWIGTYPE_p_f_p_void_dGeomID_dGeomID__void.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/org/odejava/ode/SWIGTYPE_p_float.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/org/odejava/ode/SWIGTYPE_p_int.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/org/odejava/ode/SWIGTYPE_p_void.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/org/odejava/ode/dContact.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/org/odejava/ode/dContactGeom.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/org/odejava/ode/dGeomClass.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/org/odejava/ode/dJointFeedback.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/org/odejava/ode/dMass.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/org/odejava/ode/dSurfaceParameters.class</Jar>
+    <Jar>/home/tommy/workspace/jmephysics/bin/tools/tommy/FastIntegerWrapper.class</Jar>
+    <AuxClasspathEntry>/home/tommy/workspace/jmephysics/bin</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/tommy/workspace/jme/bin</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/tommy/workspace/jme/lib/jogg-0.0.5.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/tommy/workspace/jme/lib/jorbis-0.0.12.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/tommy/workspace/jme/lib/tritonus_share.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/tommy/workspace/jme/lib/vorbisspi1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/tommy/workspace/lwjgl/bin</AuxClasspathEntry>
+  </Project>
+  <BugInstance type="FE_FLOATING_POINT_EQUALITY" priority="3" abbrev="FE" category="CORRECTNESS" uid="0" active="1114497614026-1114497614026,1118324292259-1118324292259">
+    <Class classname="com.jmex.physics.DynamicPhysicsObject"/>
+    <Method classname="com.jmex.physics.DynamicPhysicsObject" name="isSynced" signature="()Z">
+      <SourceLine classname="com.jmex.physics.DynamicPhysicsObject" start="177" end="183" startBytecode="0" endBytecode="123" sourcefile="DynamicPhysicsObject.java"/>
+    </Method>
+    <SourceLine classname="com.jmex.physics.DynamicPhysicsObject" start="183" end="183" startBytecode="42" endBytecode="42" sourcefile="DynamicPhysicsObject.java"/>
+  </BugInstance>
+  <BugInstance type="FE_FLOATING_POINT_EQUALITY" priority="3" abbrev="FE" category="CORRECTNESS" uid="4" active="1114497614026-1114497614026,1118324292259-1118324292259">
+    <Class classname="com.jmex.physics.DynamicPhysicsObject"/>
+    <Method classname="com.jmex.physics.DynamicPhysicsObject" name="isSynced" signature="()Z">
+      <SourceLine classname="com.jmex.physics.DynamicPhysicsObject" start="177" end="183" startBytecode="0" endBytecode="123" sourcefile="DynamicPhysicsObject.java"/>
+    </Method>
+    <SourceLine classname="com.jmex.physics.DynamicPhysicsObject" start="184" end="184" startBytecode="91" endBytecode="91" sourcefile="DynamicPhysicsObject.java"/>
+  </BugInstance>
+  <BugInstance type="CD_CIRCULAR_DEPENDENCY" priority="2" abbrev="CD" category="STYLE" uid="86" active="1114497614026-1114497614026,1118324292259-1118324292259">
+    <Class classname="com.jmex.physics.PhysicsDisablingController"/>
+    <Class classname="com.jmex.physics.DynamicPhysicsObject"/>
+  </BugInstance>
+  <BugInstance type="BC_UNCONFIRMED_CAST" priority="3" abbrev="BC" category="STYLE" uid="8" active="1114497614026-1114497614026,1118324292259-1118324292259">
+    <Class classname="com.jmex.physics.PhysicsEntityFactory"/>
+    <Method classname="com.jmex.physics.PhysicsEntityFactory" name="createDynamicEntity" signature="(Lcom/jmex/physics/DynamicPhysicsObject;Lcom/jmex/physics/types/PhysicsType;)Lorg/odejava/Placeable;">
+      <SourceLine classname="com.jmex.physics.PhysicsEntityFactory" start="226" end="253" startBytecode="0" endBytecode="111" sourcefile="PhysicsEntityFactory.java"/>
+    </Method>
+    <SourceLine classname="com.jmex.physics.PhysicsEntityFactory" start="227" end="227" startBytecode="9" endBytecode="9" sourcefile="PhysicsEntityFactory.java"/>
+    <Class classname="com.jmex.physics.types.PhysicsType"/>
+    <Class classname="com.jmex.physics.types.PhysicsSphere"/>
+  </BugInstance>
+  <BugInstance type="BC_UNCONFIRMED_CAST" priority="3" abbrev="BC" category="STYLE" uid="9" active="1114497614026-1114497614026,1118324292259-1118324292259">
+    <Class classname="com.jmex.physics.PhysicsEntityFactory"/>
+    <Method classname="com.jmex.physics.PhysicsEntityFactory" name="createDynamicEntity" signature="(Lcom/jmex/physics/DynamicPhysicsObject;Lcom/jmex/physics/types/PhysicsType;)Lorg/odejava/Placeable;">
+      <SourceLine classname="com.jmex.physics.PhysicsEntityFactory" start="226" end="253" startBytecode="0" endBytecode="111" sourcefile="PhysicsEntityFactory.java"/>
+    </Method>
+    <SourceLine classname="com.jmex.physics.PhysicsEntityFactory" start="231" end="231" startBytecode="46" endBytecode="46" sourcefile="PhysicsEntityFactory.java"/>
+    <Class classname="com.jmex.physics.types.PhysicsType"/>
+    <Class classname="com.jmex.physics.types.PhysicsBox"/>
+  </BugInstance>
+  <BugInstance type="BC_UNCONFIRMED_CAST" priority="3" abbrev="BC" category="STYLE" uid="10" active="1114497614026-1114497614026,1118324292259-1118324292259">
+    <Class classname="com.jmex.physics.PhysicsEntityFactory"/>
+    <Method classname="com.jmex.physics.PhysicsEntityFactory" name="createDynamicEntity" signature="(Lcom/jmex/physics/DynamicPhysicsObject;Lcom/jmex/physics/types/PhysicsType;)Lorg/odejava/Placeable;">
+      <SourceLine classname="com.jmex.physics.PhysicsEntityFactory" start="226" end="253" startBytecode="0" endBytecode="111" sourcefile="PhysicsEntityFactory.java"/>
+    </Method>
+    <SourceLine classname="com.jmex.physics.PhysicsEntityFactory" start="235" end="235" startBytecode="94" endBytecode="94" sourcefile="PhysicsEntityFactory.java"/>
+    <Class classname="com.jmex.physics.types.PhysicsType"/>
+    <Class classname="com.jmex.physics.types.PhysicsCylinder"/>
+  </BugInstance>
+  <BugInstance type="BC_UNCONFIRMED_CAST" priority="3" abbrev="BC" category="STYLE" uid="11" active="1114497614026-1114497614026,1118324292259-1118324292259">
+    <Class classname="com.jmex.physics.PhysicsEntityFactory"/>
+    <Method classname="com.jmex.physics.PhysicsEntityFactory" name="createDynamicEntity" signature="(Lcom/jmex/physics/DynamicPhysicsObject;Lcom/jmex/physics/types/PhysicsType;)Lorg/odejava/Placeable;">
+      <SourceLine classname="com.jmex.physics.PhysicsEntityFactory" start="226" end="253" startBytecode="0" endBytecode="111" sourcefile="PhysicsEntityFactory.java"/>
+    </Method>
+    <SourceLine classname="com.jmex.physics.PhysicsEntityFactory" start="239" end="239" startBytecode="137" endBytecode="137" sourcefile="PhysicsEntityFactory.java"/>
+    <Class classname="com.jmex.physics.types.PhysicsType"/>
+    <Class classname="com.jmex.physics.types.PhysicsCone"/>
+  </BugInstance>
+  <BugInstance type="CD_CIRCULAR_DEPENDENCY" priority="2" abbrev="CD" category="STYLE" uid="83" active="1114497614026-1114497614026,1118324292259-1118324292259">
+    <Class classname="com.jmex.physics.PhysicsEntityFactory"/>
+    <Class classname="com.jmex.physics.DynamicPhysicsObject"/>
+  </BugInstance>
+  <BugInstance type="CD_CIRCULAR_DEPENDENCY" priority="2" abbrev="CD" category="STYLE" uid="85" active="1114497614026-1114497614026,1118324292259-1118324292259">
+    <Class classname="com.jmex.physics.PhysicsEntityFactory"/>
+    <Class classname="com.jmex.physics.StaticPhysicsObject"/>
+  </BugInstance>
+  <BugInstance type="CD_CIRCULAR_DEPENDENCY" priority="2" abbrev="CD" category="STYLE" uid="84" active="1114497614026-1114497614026,1118324292259-1118324292259">
+    <Class classname="com.jmex.physics.PhysicsEntityFactory"/>
+    <Class classname="com.jmex.physics.joints.Joint"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" abbrev="DLS" category="STYLE" uid="7" active="1114497614026-1114497614026,1118324292259-1118324292259">
+    <Class classname="com.jmex.physics.PhysicsEntityFactory"/>
+    <Method classname="com.jmex.physics.PhysicsEntityFactory" name="createBox" signature="(Lcom/jme/scene/shape/Box;Lcom/jmex/physics/PhysicsObject;)Lorg/odejava/PlaceableGeom;">
+      <SourceLine classname="com.jmex.physics.PhysicsEntityFactory" start="369" end="387" startBytecode="0" endBytecode="51" sourcefile="PhysicsEntityFactory.java"/>
+    </Method>
+    <SourceLine classname="com.jmex.physics.PhysicsEntityFactory" start="373" end="373" startBytecode="60" endBytecode="60" sourcefile="PhysicsEntityFactory.java"/>
+  </BugInstance>
+  <BugInstance type="BC_UNCONFIRMED_CAST" priority="3" abbrev="BC" category="STYLE" uid="12" active="1114497614026-1114497614026,1118324292259-1118324292259">
+    <Class classname="com.jmex.physics.PhysicsSynchronizer"/>
+    <Method classname="com.jmex.physics.PhysicsSynchronizer" name="&lt;init&gt;" signature="(Lcom/jmex/physics/PhysicsObject;)V">
+      <SourceLine classname="com.jmex.physics.PhysicsSynchronizer" start="68" end="74" startBytecode="0" endBytecode="21" sourcefile="PhysicsSynchronizer.java"/>
+    </Method>
+    <SourceLine classname="com.jmex.physics.PhysicsSynchronizer" start="70" end="70" startBytecode="14" endBytecode="14" sourcefile="PhysicsSynchronizer.java"/>
+    <Class classname="com.jmex.physics.PhysicsObject"/>
+    <Class classname="com.jmex.physics.DynamicPhysicsObject"/>
+  </BugInstance>
+  <BugInstance type="BC_UNCONFIRMED_CAST" priority="3" abbrev="BC" category="STYLE" uid="16" active="1114497614026-1114497614026,1118324292259-1118324292259">
+    <Class classname="com.jmex.physics.PhysicsWorld"/>
+    <Method classname="com.jmex.physics.PhysicsWorld" name="addObject" signature="(Lcom/jmex/physics/PhysicsObject;)Z">
+      <SourceLine classname="com.jmex.physics.PhysicsWorld" start="255" end="295" startBytecode="0" endBytecode="95" sourcefile="PhysicsWorld.java"/>
+    </Method>
+    <SourceLine classname="com.jmex.physics.PhysicsWorld" start="270" end="270" startBytecode="63" endBytecode="63" sourcefile="PhysicsWorld.java"/>
+    <Class classname="com.jmex.physics.PhysicsObject"/>
+    <Class classname="com.jmex.physics.StaticPhysicsObject"/>
+  </BugInstance>
+  <BugInstance type="BC_UNCONFIRMED_CAST" priority="3" abbrev="BC" category="STYLE" uid="15" active="1114497614026-1114497614026,1118324292259-1118324292259">
+    <Class classname="com.jmex.physics.PhysicsWorld"/>
+    <Method classname="com.jmex.physics.PhysicsWorld" name="addObject" signature="(Lcom/jmex/physics/PhysicsObject;)Z">
+      <SourceLine classname="com.jmex.physics.PhysicsWorld" start="255" end="295" startBytecode="0" endBytecode="95" sourcefile="PhysicsWorld.java"/>
+    </Method>
+    <SourceLine classname="com.jmex.physics.PhysicsWorld" start="282" end="282" startBytecode="126" endBytecode="126" sourcefile="PhysicsWorld.java"/>
+    <Class classname="com.jmex.physics.PhysicsObject"/>
+    <Class classname="com.jmex.physics.DynamicPhysicsObject"/>
+  </BugInstance>
+  <BugInstance type="BC_UNCONFIRMED_CAST" priority="3" abbrev="BC" category="STYLE" uid="18" active="1114497614026-1114497614026,1118324292259-1118324292259">
+    <Class classname="com.jmex.physics.PhysicsWorld"/>
+    <Method classname="com.jmex.physics.PhysicsWorld" name="removeObject" signature="(Lcom/jmex/physics/PhysicsObject;)Z">
+      <SourceLine classname="com.jmex.physics.PhysicsWorld" start="308" end="336" startBytecode="0" endBytecode="61" sourcefile="PhysicsWorld.java"/>
+    </Method>
+    <SourceLine classname="com.jmex.physics.PhysicsWorld" start="315" end="315" startBytecode="21" endBytecode="21" sourcefile="PhysicsWorld.java"/>
+    <Class classname="com.jmex.physics.PhysicsObject"/>
+    <Class classname="com.jmex.physics.StaticPhysicsObject"/>
+  </BugInstance>
+  <BugInstance type="BC_UNCONFIRMED_CAST" priority="3" abbrev="BC" category="STYLE" uid="17" active="1114497614026-1114497614026,1118324292259-1118324292259">
+    <Class classname="com.jmex.physics.PhysicsWorld"/>
+    <Method classname="com.jmex.physics.PhysicsWorld" name="removeObject" signature="(Lcom/jmex/physics/PhysicsObject;)Z">
+      <SourceLine classname="com.jmex.physics.PhysicsWorld" start="308" end="336" startBytecode="0" endBytecode="61" sourcefile="PhysicsWorld.java"/>
+    </Method>
+    <SourceLine classname="com.jmex.physics.PhysicsWorld" start="324" end="324" startBytecode="76" endBytecode="76" sourcefile="PhysicsWorld.java"/>
+    <Class classname="com.jmex.physics.PhysicsObject"/>
+    <Class classname="com.jmex.physics.DynamicPhysicsObject"/>
+  </BugInstance>
+  <BugInstance type="FE_FLOATING_POINT_EQUALITY" priority="3" abbrev="FE" category="CORRECTNESS" uid="14" active="1114497614026-1114497614026,1118324292259-1118324292259">
+    <Class classname="com.jmex.physics.PhysicsWorld"/>
+    <Method classname="com.jmex.physics.PhysicsWorld" name="iterateContacts" signature="(Z)V">
+      <SourceLine classname="com.jmex.physics.PhysicsWorld" start="752" end="822" startBytecode="0" endBytecode="415" sourcefile="PhysicsWorld.java"/>
+    </Method>
+    <SourceLine classname="com.jmex.physics.PhysicsWorld" start="782" end="782" startBytecode="189" endBytecode="189" sourcefile="PhysicsWorld.java"/>
+  </BugInstance>
+  <BugInstance type="ST_WRITE_TO_STATIC_FROM_INSTANCE_METHOD" priority="1" abbrev="ST" category="STYLE" uid="13" active="1114497614026-1114497614026,1118324292259-1118324292259">
+    <Class classname="com.jmex.physics.PhysicsWorld"/>
+    <Method classname="com.jmex.physics.PhysicsWorld" name="cleanup" signature="()V">
+      <SourceLine classname="com.jmex.physics.PhysicsWorld" start="829" end="834" startBytecode="0" endBytecode="28" sourcefile="PhysicsWorld.java"/>
+    </Method>
+    <Field classname="com.jmex.physics.PhysicsWorld" name="instance" signature="Lcom/jmex/physics/PhysicsWorld;" isStatic="true"/>
+    <SourceLine classname="com.jmex.physics.PhysicsWorld" start="833" end="833" startBytecode="25" endBytecode="25" sourcefile="PhysicsWorld.java"/>
+  </BugInstance>
+  <BugInstance type="FE_FLOATING_POINT_EQUALITY" priority="3" abbrev="FE" category="CORRECTNESS" uid="19" active="1114497614026-1114497614026,1118324292259-1118324292259">
+    <Class classname="com.jmex.physics.StaticPhysicsObject"/>
+    <Method classname="com.jmex.physics.StaticPhysicsObject" name="isSynced" signature="()Z">
+      <SourceLine classname="com.jmex.physics.StaticPhysicsObject" start="126" end="143" startBytecode="0" endBytecode="179" sourcefile="StaticPhysicsObject.java"/>
+    </Method>
+    <SourceLine classname="com.jmex.physics.StaticPhysicsObject" start="135" end="135" startBytecode="71" endBytecode="71" sourcefile="StaticPhysicsObject.java"/>
+  </BugInstance>
+  <BugInstance type="FE_FLOATING_POINT_EQUALITY" priority="3" abbrev="FE" category="CORRECTNESS" uid="23" active="1114497614026-1114497614026,1118324292259-1118324292259">
+    <Class classname="com.jmex.physics.StaticPhysicsObject"/>
+    <Method classname="com.jmex.physics.StaticPhysicsObject" name="isSynced" signature="()Z">
+      <SourceLine classname="com.jmex.physics.StaticPhysicsObject" start="126" end="143" startBytecode="0" endBytecode="179" sourcefile="StaticPhysicsObject.java"/>
+    </Method>
+    <SourceLine classname="com.jmex.physics.StaticPhysicsObject" start="136" end="136" startBytecode="127" endBytecode="127" sourcefile="StaticPhysicsObject.java"/>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP" priority="2" abbrev="EI" category="MALICIOUS_CODE" uid="26" active="1114497614026-1114497614026,1118324292259-1118324292259">
+    <Class classname="com.jmex.physics.effects.particles.PhysicsParticleManager"/>
+    <Method classname="com.jmex.physics.effects.particles.PhysicsParticleManager" name="getPhysicsParticles" signature="()[Lcom/jmex/physics/DynamicPhysicsObject;">
+      <SourceLine classname="com.jmex.physics.effects.particles.PhysicsParticleManager" start="111" end="111" startBytecode="0" endBytecode="4" sourcefile="PhysicsParticleManager.java"/>
+    </Method>
+    <Field classname="com.jmex.physics.effects.particles.PhysicsParticleManager" name="phyParticles" signature="[Lcom/jmex/physics/DynamicPhysicsObject;" isStatic="false"/>
+    <SourceLine classname="com.jmex.physics.effects.particles.PhysicsParticleManager" start="111" end="111" startBytecode="4" endBytecode="4" sourcefile="PhysicsParticleManager.java"/>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP2" priority="2" abbrev="EI2" category="MALICIOUS_CODE" uid="27" active="1114497614026-1114497614026,1118324292259-1118324292259">
+    <Class classname="com.jmex.physics.ragdoll.Humanoid"/>
+    <Method classname="com.jmex.physics.ragdoll.Humanoid" name="&lt;init&gt;" signature="([Lcom/jmex/physics/DynamicPhysicsObject;)V">
+      <SourceLine classname="com.jmex.physics.ragdoll.Humanoid" start="73" end="80" startBytecode="0" endBytecode="30" sourcefile="Humanoid.java"/>
+    </Method>
+    <Field classname="com.jmex.physics.ragdoll.Humanoid" name="limbs" signature="[Lcom/jmex/physics/DynamicPhysicsObject;" isStatic="true"/>
+    <SourceLine classname="com.jmex.physics.ragdoll.Humanoid" start="78" end="78" startBytecode="23" endBytecode="23" sourcefile="Humanoid.java"/>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP" priority="2" abbrev="EI" category="MALICIOUS_CODE" uid="28" active="1114497614026-1114497614026,1118324292259-1118324292259">
+    <Class classname="com.jmex.physics.ragdoll.Skeleton"/>
+    <Method classname="com.jmex.physics.ragdoll.Skeleton" name="getLimbs" signature="()[Lcom/jmex/physics/DynamicPhysicsObject;">
+      <SourceLine classname="com.jmex.physics.ragdoll.Skeleton" start="60" end="60" startBytecode="0" endBytecode="4" sourcefile="Skeleton.java"/>
+    </Method>
+    <Field classname="com.jmex.physics.ragdoll.Skeleton" name="limbs" signature="[Lcom/jmex/physics/DynamicPhysicsObject;" isStatic="false"/>
+    <SourceLine classname="com.jmex.physics.ragdoll.Skeleton" start="60" end="60" startBytecode="4" endBytecode="4" sourcefile="Skeleton.java"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="3" abbrev="DLS" category="STYLE" uid="34" active="1114497614026-1114497614026,1118324292259-1118324292259">
+    <Class classname="com.jmex.physics.vehicle.Car"/>
+    <Method classname="com.jmex.physics.vehicle.Car" name="getSkiddingValue" signature="(I)F">
+      <SourceLine classname="com.jmex.physics.vehicle.Car" start="888" end="890" startBytecode="0" endBytecode="17" sourcefile="Car.java"/>
+    </Method>
+    <SourceLine classname="com.jmex.physics.vehicle.Car" start="888" end="888" startBytecode="31" endBytecode="31" sourcefile="Car.java"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="3" abbrev="DLS" category="STYLE" uid="33" active="1114497614026-1114497614026,1118324292259-1118324292259">
+    <Class classname="com.jmex.physics.vehicle.Car"/>
+    <Method classname="com.jmex.physics.vehicle.Car" name="updatePowerOnWheels" signature="()V">
+      <SourceLine classname="com.jmex.physics.vehicle.Car" start="537" end="710" startBytecode="0" endBytecode="440" sourcefile="Car.java"/>
+    </Method>
+    <SourceLine classname="com.jmex.physics.vehicle.Car" start="629" end="629" startBytecode="399" endBytecode="399" sourcefile="Car.java"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="3" abbrev="DLS" category="STYLE" uid="32" active="1114497614026-1114497614026,1118324292259-1118324292259">
+    <Class classname="com.jmex.physics.vehicle.Car"/>
+    <Method classname="com.jmex.physics.vehicle.Car" name="updatePowerOnWheels" signature="()V">
+      <SourceLine classname="com.jmex.physics.vehicle.Car" start="537" end="710" startBytecode="0" endBytecode="440" sourcefile="Car.java"/>
+    </Method>
+    <SourceLine classname="com.jmex.physics.vehicle.Car" start="653" end="653" startBytecode="515" endBytecode="515" sourcefile="Car.java"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="3" abbrev="DLS" category="STYLE" uid="31" active="1114497614026-1114497614026,1118324292259-1118324292259">
+    <Class classname="com.jmex.physics.vehicle.Car"/>
+    <Method classname="com.jmex.physics.vehicle.Car" name="updatePowerOnWheels" signature="()V">
+      <SourceLine classname="com.jmex.physics.vehicle.Car" start="537" end="710" startBytecode="0" endBytecode="440" sourcefile="Car.java"/>
+    </Method>
+    <SourceLine classname="com.jmex.physics.vehicle.Car" start="679" end="679" startBytecode="631" endBytecode="631" sourcefile="Car.java"/>
+  </BugInstance>
+  <BugInstance type="NM_FIELD_NAMING_CONVENTION" priority="3" abbrev="Nm" category="STYLE" uid="29" active="1114497614026-1114497614026,1118324292259-1118324292259">
+    <Class classname="com.jmex.physics.vehicle.Car"/>
+    <Field classname="com.jmex.physics.vehicle.Car" name="Fdrive" signature="Lcom/jme/math/Vector3f;" isStatic="false"/>
+  </BugInstance>
+  <BugInstance type="SA_LOCAL_SELF_ASSIGNMENT" priority="2" abbrev="SA" category="STYLE" uid="30" active="1114497614026-1114497614026,1118324292259-1118324292259">
+    <Class classname="com.jmex.physics.vehicle.Car"/>
+    <Method classname="com.jmex.physics.vehicle.Car" name="getRPM" signature="(I)F">
+      <SourceLine classname="com.jmex.physics.vehicle.Car" start="380" end="436" startBytecode="0" endBytecode="406" sourcefile="Car.java"/>
+    </Method>
+    <SourceLine classname="com.jmex.physics.vehicle.Car" start="389" end="389" startBytecode="83" endBytecode="83" sourcefile="Car.java"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" abbrev="UrF" category="PERFORMANCE" uid="55" active="1114497614026-1114497614026,1118324292259-1118324292259">
+    <Class classname="com.jmex.physics.vehicle.Car"/>
+    <Field classname="com.jmex.physics.vehicle.Car" name="averageRPM" signature="F" isStatic="false"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" abbrev="UrF" category="PERFORMANCE" uid="56" active="1114497614026-1114497614026,1118324292259-1118324292259">
+    <Class classname="com.jmex.physics.vehicle.Car"/>
+    <Field classname="com.jmex.physics.vehicle.Car" name="isAccelerating" signature="Z" isStatic="false"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" abbrev="UrF" category="PERFORMANCE" uid="57" active="1114497614026-1114497614026,1118324292259-1118324292259">
+    <Class classname="com.jmex.physics.vehicle.Car"/>
+    <Field classname="com.jmex.physics.vehicle.Car" name="lastRPM" signature="F" isStatic="false"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" abbrev="UrF" category="PERFORMANCE" uid="58" active="1114497614026-1114497614026,1118324292259-1118324292259">
+    <Class classname="com.jmex.physics.vehicle.Car"/>
+    <Field classname="com.jmex.physics.vehicle.Car" name="tyreKineticFriction" signature="F" isStatic="false"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" abbrev="UrF" category="PERFORMANCE" uid="59" active="1114497614026-1114497614026,1118324292259-1118324292259">
+    <Class classname="com.jmex.physics.vehicle.GearBox"/>
+    <Field classname="com.jmex.physics.vehicle.GearBox" name="currentGear" signature="I" isStatic="false"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" abbrev="DLS" category="STYLE" uid="39" active="1114497614026-1114497614026,1118324292259-1118324292259">
+    <Class classname="com.jmex.physics.vehicle.NmCurve"/>
+    <Method classname="com.jmex.physics.vehicle.NmCurve" name="getNm" signature="(Ljava/lang/String;FFFFF)F">
+      <SourceLine classname="com.jmex.physics.vehicle.NmCurve" start="35" end="106" startBytecode="0" endBytecode="211" sourcefile="NmCurve.java"/>
+    </Method>
+    <SourceLine classname="com.jmex.physics.vehicle.NmCurve" start="79" end="79" startBytecode="224" endBytecode="224" sourcefile="NmCurve.java"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" abbrev="DLS" category="STYLE" uid="40" active="1114497614026-1114497614026,1118324292259-1118324292259">
+    <Class classname="com.jmex.physics.vehicle.NmCurve"/>
+    <Method classname="com.jmex.physics.vehicle.NmCurve" name="getNm" signature="(Ljava/lang/String;FFFFF)F">
+      <SourceLine classname="com.jmex.physics.vehicle.NmCurve" start="35" end="106" startBytecode="0" endBytecode="211" sourcefile="NmCurve.java"/>
+    </Method>
+    <SourceLine classname="com.jmex.physics.vehicle.NmCurve" start="81" end="81" startBytecode="232" endBytecode="232" sourcefile="NmCurve.java"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" abbrev="DLS" category="STYLE" uid="41" active="1114497614026-1114497614026,1118324292259-1118324292259">
+    <Class classname="com.jmex.physics.vehicle.NmCurve"/>
+    <Method classname="com.jmex.physics.vehicle.NmCurve" name="getNm" signature="(Ljava/lang/String;FFFFF)F">
+      <SourceLine classname="com.jmex.physics.vehicle.NmCurve" start="35" end="106" startBytecode="0" endBytecode="211" sourcefile="NmCurve.java"/>
+    </Method>
+    <SourceLine classname="com.jmex.physics.vehicle.NmCurve" start="82" end="82" startBytecode="240" endBytecode="240" sourcefile="NmCurve.java"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="3" abbrev="DLS" category="STYLE" uid="35" active="1114497614026-1114497614026,1118324292259-1118324292259">
+    <Class classname="com.jmex.physics.vehicle.NmCurve"/>
+    <Method classname="com.jmex.physics.vehicle.NmCurve" name="getNm" signature="(Ljava/lang/String;FFFFF)F">
+      <SourceLine classname="com.jmex.physics.vehicle.NmCurve" start="35" end="106" startBytecode="0" endBytecode="211" sourcefile="NmCurve.java"/>
+    </Method>
+    <SourceLine classname="com.jmex.physics.vehicle.NmCurve" start="41" end="41" startBytecode="33" endBytecode="33" sourcefile="NmCurve.java"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="3" abbrev="DLS" category="STYLE" uid="36" active="1114497614026-1114497614026,1118324292259-1118324292259">
+    <Class classname="com.jmex.physics.vehicle.NmCurve"/>
+    <Method classname="com.jmex.physics.vehicle.NmCurve" name="getNm" signature="(Ljava/lang/String;FFFFF)F">
+      <SourceLine classname="com.jmex.physics.vehicle.NmCurve" start="35" end="106" startBytecode="0" endBytecode="211" sourcefile="NmCurve.java"/>
+    </Method>
+    <SourceLine classname="com.jmex.physics.vehicle.NmCurve" start="42" end="42" startBytecode="37" endBytecode="37" sourcefile="NmCurve.java"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="3" abbrev="DLS" category="STYLE" uid="37" active="1114497614026-1114497614026,1118324292259-1118324292259">
+    <Class classname="com.jmex.physics.vehicle.NmCurve"/>
+    <Method classname="com.jmex.physics.vehicle.NmCurve" name="getNm" signature="(Ljava/lang/String;FFFFF)F">
+      <SourceLine classname="com.jmex.physics.vehicle.NmCurve" start="35" end="106" startBytecode="0" endBytecode="211" sourcefile="NmCurve.java"/>
+    </Method>
+    <SourceLine classname="com.jmex.physics.vehicle.NmCurve" start="43" end="43" startBytecode="41" endBytecode="41" sourcefile="NmCurve.java"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="3" abbrev="DLS" category="STYLE" uid="38" active="1114497614026-1114497614026,1118324292259-1118324292259">
+    <Class classname="com.jmex.physics.vehicle.NmCurve"/>
+    <Method classname="com.jmex.physics.vehicle.NmCurve" name="getNm" signature="(Ljava/lang/String;FFFFF)F">
+      <SourceLine classname="com.jmex.physics.vehicle.NmCurve" start="35" end="106" startBytecode="0" endBytecode="211" sourcefile="NmCurve.java"/>
+    </Method>
+    <SourceLine classname="com.jmex.physics.vehicle.NmCurve" start="44" end="44" startBytecode="45" endBytecode="45" sourcefile="NmCurve.java"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="3" abbrev="DLS" category="STYLE" uid="42" active="1114497614026-1114497614026,1118324292259-1118324292259">
+    <Class classname="com.jmex.physics.vehicle.NmCurve"/>
+    <Method classname="com.jmex.physics.vehicle.NmCurve" name="getNm" signature="(Ljava/lang/String;FFFFF)F">
+      <SourceLine classname="com.jmex.physics.vehicle.NmCurve" start="35" end="106" startBytecode="0" endBytecode="211" sourcefile="NmCurve.java"/>
+    </Method>
+    <SourceLine classname="com.jmex.physics.vehicle.NmCurve" start="55" end="55" startBytecode="98" endBytecode="98" sourcefile="NmCurve.java"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="3" abbrev="DLS" category="STYLE" uid="43" active="1114497614026-1114497614026,1118324292259-1118324292259">
+    <Class classname="com.jmex.physics.vehicle.NmCurve"/>
+    <Method classname="com.jmex.physics.vehicle.NmCurve" name="getNm" signature="(Ljava/lang/String;FFFFF)F">
+      <SourceLine classname="com.jmex.physics.vehicle.NmCurve" start="35" end="106" startBytecode="0" endBytecode="211" sourcefile="NmCurve.java"/>
+    </Method>
+    <SourceLine classname="com.jmex.physics.vehicle.NmCurve" start="93" end="93" startBytecode="305" endBytecode="305" sourcefile="NmCurve.java"/>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP" priority="2" abbrev="EI" category="MALICIOUS_CODE" uid="45" active="1114497614026-1114497614026,1118324292259-1118324292259">
+    <Class classname="com.jmex.physics.vehicle.Vehicle"/>
+    <Method classname="com.jmex.physics.vehicle.Vehicle" name="getWheels" signature="()[Lcom/jmex/physics/DynamicPhysicsObject;">
+      <SourceLine classname="com.jmex.physics.vehicle.Vehicle" start="190" end="190" startBytecode="0" endBytecode="4" sourcefile="Vehicle.java"/>
+    </Method>
+    <Field classname="com.jmex.physics.vehicle.Vehicle" name="wheels" signature="[Lcom/jmex/physics/DynamicPhysicsObject;" isStatic="false"/>
+    <SourceLine classname="com.jmex.physics.vehicle.Vehicle" start="190" end="190" startBytecode="4" endBytecode="4" sourcefile="Vehicle.java"/>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP2" priority="2" abbrev="EI2" category="MALICIOUS_CODE" uid="44" active="1114497614026-1114497614026,1118324292259-1118324292259">
+    <Class classname="com.jmex.physics.vehicle.Vehicle"/>
+    <Method classname="com.jmex.physics.vehicle.Vehicle" name="&lt;init&gt;" signature="(Lcom/jmex/physics/DynamicPhysicsObject;[Lcom/jmex/physics/DynamicPhysicsObject;FFFF)V">
+      <SourceLine classname="com.jmex.physics.vehicle.Vehicle" start="117" end="129" startBytecode="0" endBytecode="45" sourcefile="Vehicle.java"/>
+    </Method>
+    <Field classname="com.jmex.physics.vehicle.Vehicle" name="wheels" signature="[Lcom/jmex/physics/DynamicPhysicsObject;" isStatic="true"/>
+    <SourceLine classname="com.jmex.physics.vehicle.Vehicle" start="121" end="121" startBytecode="11" endBytecode="11" sourcefile="Vehicle.java"/>
+  </BugInstance>
+  <BugInstance type="BC_UNCONFIRMED_CAST" priority="3" abbrev="BC" category="STYLE" uid="46" active="1114497614026-1114497614026,1118324292259-1118324292259">
+    <Class classname="org.odejava.Body"/>
+    <Method classname="org.odejava.Body" name="setDefaultMass" signature="(Lorg/odejava/Geom;)V">
+      <SourceLine classname="org.odejava.Body" start="285" end="303" startBytecode="0" endBytecode="62" sourcefile="Body.java"/>
+    </Method>
+    <SourceLine classname="org.odejava.Body" start="286" end="286" startBytecode="8" endBytecode="8" sourcefile="Body.java"/>
+    <Class classname="org.odejava.Geom"/>
+    <Class classname="org.odejava.GeomBox"/>
+  </BugInstance>
+  <BugInstance type="BC_UNCONFIRMED_CAST" priority="3" abbrev="BC" category="STYLE" uid="47" active="1114497614026-1114497614026,1118324292259-1118324292259">
+    <Class classname="org.odejava.Body"/>
+    <Method classname="org.odejava.Body" name="setDefaultMass" signature="(Lorg/odejava/Geom;)V">
+      <SourceLine classname="org.odejava.Body" start="285" end="303" startBytecode="0" endBytecode="62" sourcefile="Body.java"/>
+    </Method>
+    <SourceLine classname="org.odejava.Body" start="292" end="292" startBytecode="54" endBytecode="54" sourcefile="Body.java"/>
+    <Class classname="org.odejava.Geom"/>
+    <Class classname="org.odejava.GeomSphere"/>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" abbrev="UuF" category="PERFORMANCE" uid="60" active="1114497614026-1114497614026,1118324292259-1118324292259">
+    <Class classname="org.odejava.Body"/>
+    <Field classname="org.odejava.Body" name="tmpQuat" signature="Lcom/jme/math/Quaternion;" isStatic="false"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" abbrev="UrF" category="PERFORMANCE" uid="61" active="1114497614026-1114497614026,1118324292259-1118324292259">
+    <Class classname="org.odejava.GeomBox"/>
+    <Field classname="org.odejava.GeomBox" name="sizeX" signature="F" isStatic="false"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" abbrev="UrF" category="PERFORMANCE" uid="62" active="1114497614026-1114497614026,1118324292259-1118324292259">
+    <Class classname="org.odejava.GeomBox"/>
+    <Field classname="org.odejava.GeomBox" name="sizeY" signature="F" isStatic="false"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" abbrev="UrF" category="PERFORMANCE" uid="63" active="1114497614026-1114497614026,1118324292259-1118324292259">
+    <Class classname="org.odejava.GeomBox"/>
+    <Field classname="org.odejava.GeomBox" name="sizeZ" signature="F" isStatic="false"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" abbrev="UrF" category="PERFORMANCE" uid="64" active="1114497614026-1114497614026,1118324292259-1118324292259">
+    <Class classname="org.odejava.GeomCappedCylinder"/>
+    <Field classname="org.odejava.GeomCappedCylinder" name="length" signature="F" isStatic="false"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" abbrev="UrF" category="PERFORMANCE" uid="65" active="1114497614026-1114497614026,1118324292259-1118324292259">
+    <Class classname="org.odejava.GeomCappedCylinder"/>
+    <Field classname="org.odejava.GeomCappedCylinder" name="radius" signature="F" isStatic="false"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" abbrev="UrF" category="PERFORMANCE" uid="66" active="1114497614026-1114497614026,1118324292259-1118324292259">
+    <Class classname="org.odejava.GeomCylinder"/>
+    <Field classname="org.odejava.GeomCylinder" name="length" signature="F" isStatic="false"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" abbrev="UrF" category="PERFORMANCE" uid="67" active="1114497614026-1114497614026,1118324292259-1118324292259">
+    <Class classname="org.odejava.GeomCylinder"/>
+    <Field classname="org.odejava.GeomCylinder" name="radius" signature="F" isStatic="false"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" abbrev="UrF" category="PERFORMANCE" uid="68" active="1114497614026-1114497614026,1118324292259-1118324292259">
+    <Class classname="org.odejava.GeomPlane"/>
+    <Field classname="org.odejava.GeomPlane" name="a" signature="F" isStatic="false"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" abbrev="UrF" category="PERFORMANCE" uid="69" active="1114497614026-1114497614026,1118324292259-1118324292259">
+    <Class classname="org.odejava.GeomPlane"/>
+    <Field classname="org.odejava.GeomPlane" name="b" signature="F" isStatic="false"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" abbrev="UrF" category="PERFORMANCE" uid="70" active="1114497614026-1114497614026,1118324292259-1118324292259">
+    <Class classname="org.odejava.GeomPlane"/>
+    <Field classname="org.odejava.GeomPlane" name="c" signature="F" isStatic="false"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" abbrev="UrF" category="PERFORMANCE" uid="71" active="1114497614026-1114497614026,1118324292259-1118324292259">
+    <Class classname="org.odejava.GeomPlane"/>
+    <Field classname="org.odejava.GeomPlane" name="d" signature="F" isStatic="false"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" abbrev="UrF" category="PERFORMANCE" uid="72" active="1114497614026-1114497614026,1118324292259-1118324292259">
+    <Class classname="org.odejava.GeomRay"/>
+    <Field classname="org.odejava.GeomRay" name="length" signature="F" isStatic="false"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" abbrev="UrF" category="PERFORMANCE" uid="73" active="1114497614026-1114497614026,1118324292259-1118324292259">
+    <Class classname="org.odejava.GeomSphere"/>
+    <Field classname="org.odejava.GeomSphere" name="radius" signature="F" isStatic="false"/>
+  </BugInstance>
+  <BugInstance type="CD_CIRCULAR_DEPENDENCY" priority="2" abbrev="CD" category="STYLE" uid="87" active="1114497614026-1114497614026,1118324292259-1118324292259">
+    <Class classname="org.odejava.JointGroup"/>
+    <Class classname="org.odejava.Joint"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" abbrev="UrF" category="PERFORMANCE" uid="74" active="1114497614026-1114497614026,1118324292259-1118324292259">
+    <Class classname="org.odejava.JointGroup"/>
+    <Field classname="org.odejava.JointGroup" name="name" signature="Ljava/lang/String;" isStatic="false"/>
+  </BugInstance>
+  <BugInstance type="ISC_INSTANTIATE_STATIC_CLASS" priority="3" abbrev="ISC" category="CORRECTNESS" uid="48" active="1114497614026-1114497614026,1118324292259-1118324292259">
+    <Class classname="org.odejava.Odejava"/>
+    <Method classname="org.odejava.Odejava" name="getInstance" signature="()Lorg/odejava/Odejava;">
+      <SourceLine classname="org.odejava.Odejava" start="117" end="120" startBytecode="0" endBytecode="19" sourcefile="Odejava.java"/>
+    </Method>
+    <SourceLine classname="org.odejava.Odejava" start="118" end="118" startBytecode="10" endBytecode="10" sourcefile="Odejava.java"/>
+  </BugInstance>
+  <BugInstance type="CD_CIRCULAR_DEPENDENCY" priority="2" abbrev="CD" category="STYLE" uid="81" active="1114497614026-1114497614026,1118324292259-1118324292259">
+    <Class classname="org.odejava.PlaceableGeom"/>
+    <Class classname="org.odejava.Body"/>
+  </BugInstance>
+  <BugInstance type="CD_CIRCULAR_DEPENDENCY" priority="2" abbrev="CD" category="STYLE" uid="82" active="1114497614026-1114497614026,1118324292259-1118324292259">
+    <Class classname="org.odejava.PlaceableGeom"/>
+    <Class classname="org.odejava.Geom"/>
+    <Class classname="org.odejava.Space"/>
+    <Class classname="org.odejava.Body"/>
+    <Class classname="org.odejava.GeomSphere"/>
+  </BugInstance>
+  <BugInstance type="CD_CIRCULAR_DEPENDENCY" priority="2" abbrev="CD" category="STYLE" uid="88" active="1114497614026-1114497614026,1118324292259-1118324292259">
+    <Class classname="org.odejava.World"/>
+    <Class classname="org.odejava.Body"/>
+  </BugInstance>
+  <BugInstance type="IS2_INCONSISTENT_SYNC" priority="3" abbrev="IS2" category="MT_CORRECTNESS" uid="76" active="1114497614026-1114497614026,1118324292259-1118324292259">
+    <Class classname="org.odejava.ode.dContact"/>
+    <Field classname="org.odejava.ode.dContact" name="swigCPtr" signature="J" isStatic="false"/>
+    <Int value="91" role="INT_SYNC_PERCENT"/>
+    <SourceLine classname="org.odejava.ode.dContact" start="34" end="34" startBytecode="9" endBytecode="9" sourcefile="dContact.java" role="SOURCE_LINE_UNSYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dContact" start="42" end="42" startBytecode="2" endBytecode="2" sourcefile="dContact.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dContact" start="26" end="26" startBytecode="1" endBytecode="1" sourcefile="dContact.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dContact" start="30" end="30" startBytecode="30" endBytecode="30" sourcefile="dContact.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dContact" start="28" end="28" startBytecode="22" endBytecode="22" sourcefile="dContact.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dContact" start="46" end="46" startBytecode="1" endBytecode="1" sourcefile="dContact.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dContact" start="68" end="68" startBytecode="1" endBytecode="1" sourcefile="dContact.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dContact" start="64" end="64" startBytecode="1" endBytecode="1" sourcefile="dContact.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dContact" start="38" end="38" startBytecode="1" endBytecode="1" sourcefile="dContact.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dContact" start="59" end="59" startBytecode="1" endBytecode="1" sourcefile="dContact.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dContact" start="50" end="50" startBytecode="1" endBytecode="1" sourcefile="dContact.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dContact" start="55" end="55" startBytecode="1" endBytecode="1" sourcefile="dContact.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+  </BugInstance>
+  <BugInstance type="NM_CLASS_NAMING_CONVENTION" priority="2" abbrev="Nm" category="STYLE" uid="49" active="1114497614026-1114497614026,1118324292259-1118324292259">
+    <Class classname="org.odejava.ode.dContact"/>
+  </BugInstance>
+  <BugInstance type="IS2_INCONSISTENT_SYNC" priority="3" abbrev="IS2" category="MT_CORRECTNESS" uid="79" active="1114497614026-1114497614026,1118324292259-1118324292259">
+    <Class classname="org.odejava.ode.dContactGeom"/>
+    <Field classname="org.odejava.ode.dContactGeom" name="swigCPtr" signature="J" isStatic="false"/>
+    <Int value="93" role="INT_SYNC_PERCENT"/>
+    <SourceLine classname="org.odejava.ode.dContactGeom" start="34" end="34" startBytecode="9" endBytecode="9" sourcefile="dContactGeom.java" role="SOURCE_LINE_UNSYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dContactGeom" start="50" end="50" startBytecode="1" endBytecode="1" sourcefile="dContactGeom.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dContactGeom" start="84" end="84" startBytecode="5" endBytecode="5" sourcefile="dContactGeom.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dContactGeom" start="64" end="64" startBytecode="1" endBytecode="1" sourcefile="dContactGeom.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dContactGeom" start="26" end="26" startBytecode="1" endBytecode="1" sourcefile="dContactGeom.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dContactGeom" start="30" end="30" startBytecode="30" endBytecode="30" sourcefile="dContactGeom.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dContactGeom" start="28" end="28" startBytecode="22" endBytecode="22" sourcefile="dContactGeom.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dContactGeom" start="38" end="38" startBytecode="1" endBytecode="1" sourcefile="dContactGeom.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dContactGeom" start="59" end="59" startBytecode="1" endBytecode="1" sourcefile="dContactGeom.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dContactGeom" start="46" end="46" startBytecode="1" endBytecode="1" sourcefile="dContactGeom.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dContactGeom" start="80" end="80" startBytecode="1" endBytecode="1" sourcefile="dContactGeom.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dContactGeom" start="42" end="42" startBytecode="2" endBytecode="2" sourcefile="dContactGeom.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dContactGeom" start="76" end="76" startBytecode="5" endBytecode="5" sourcefile="dContactGeom.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dContactGeom" start="72" end="72" startBytecode="1" endBytecode="1" sourcefile="dContactGeom.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dContactGeom" start="55" end="55" startBytecode="1" endBytecode="1" sourcefile="dContactGeom.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dContactGeom" start="68" end="68" startBytecode="1" endBytecode="1" sourcefile="dContactGeom.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+  </BugInstance>
+  <BugInstance type="NM_CLASS_NAMING_CONVENTION" priority="2" abbrev="Nm" category="STYLE" uid="50" active="1114497614026-1114497614026,1118324292259-1118324292259">
+    <Class classname="org.odejava.ode.dContactGeom"/>
+  </BugInstance>
+  <BugInstance type="IS2_INCONSISTENT_SYNC" priority="3" abbrev="IS2" category="MT_CORRECTNESS" uid="77" active="1114497614026-1114497614026,1118324292259-1118324292259">
+    <Class classname="org.odejava.ode.dGeomClass"/>
+    <Field classname="org.odejava.ode.dGeomClass" name="swigCPtr" signature="J" isStatic="false"/>
+    <Int value="93" role="INT_SYNC_PERCENT"/>
+    <SourceLine classname="org.odejava.ode.dGeomClass" start="34" end="34" startBytecode="9" endBytecode="9" sourcefile="dGeomClass.java" role="SOURCE_LINE_UNSYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dGeomClass" start="26" end="26" startBytecode="1" endBytecode="1" sourcefile="dGeomClass.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dGeomClass" start="30" end="30" startBytecode="30" endBytecode="30" sourcefile="dGeomClass.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dGeomClass" start="28" end="28" startBytecode="22" endBytecode="22" sourcefile="dGeomClass.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dGeomClass" start="46" end="46" startBytecode="1" endBytecode="1" sourcefile="dGeomClass.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dGeomClass" start="85" end="85" startBytecode="1" endBytecode="1" sourcefile="dGeomClass.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dGeomClass" start="38" end="38" startBytecode="1" endBytecode="1" sourcefile="dGeomClass.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dGeomClass" start="50" end="50" startBytecode="1" endBytecode="1" sourcefile="dGeomClass.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dGeomClass" start="54" end="54" startBytecode="1" endBytecode="1" sourcefile="dGeomClass.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dGeomClass" start="72" end="72" startBytecode="1" endBytecode="1" sourcefile="dGeomClass.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dGeomClass" start="67" end="67" startBytecode="1" endBytecode="1" sourcefile="dGeomClass.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dGeomClass" start="81" end="81" startBytecode="1" endBytecode="1" sourcefile="dGeomClass.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dGeomClass" start="42" end="42" startBytecode="2" endBytecode="2" sourcefile="dGeomClass.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dGeomClass" start="76" end="76" startBytecode="1" endBytecode="1" sourcefile="dGeomClass.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dGeomClass" start="58" end="58" startBytecode="1" endBytecode="1" sourcefile="dGeomClass.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dGeomClass" start="63" end="63" startBytecode="1" endBytecode="1" sourcefile="dGeomClass.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+  </BugInstance>
+  <BugInstance type="NM_CLASS_NAMING_CONVENTION" priority="2" abbrev="Nm" category="STYLE" uid="51" active="1114497614026-1114497614026,1118324292259-1118324292259">
+    <Class classname="org.odejava.ode.dGeomClass"/>
+  </BugInstance>
+  <BugInstance type="IS2_INCONSISTENT_SYNC" priority="3" abbrev="IS2" category="MT_CORRECTNESS" uid="75" active="1114497614026-1114497614026,1118324292259-1118324292259">
+    <Class classname="org.odejava.ode.dJointFeedback"/>
+    <Field classname="org.odejava.ode.dJointFeedback" name="swigCPtr" signature="J" isStatic="false"/>
+    <Int value="92" role="INT_SYNC_PERCENT"/>
+    <SourceLine classname="org.odejava.ode.dJointFeedback" start="34" end="34" startBytecode="9" endBytecode="9" sourcefile="dJointFeedback.java" role="SOURCE_LINE_UNSYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dJointFeedback" start="46" end="46" startBytecode="1" endBytecode="1" sourcefile="dJointFeedback.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dJointFeedback" start="55" end="55" startBytecode="1" endBytecode="1" sourcefile="dJointFeedback.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dJointFeedback" start="42" end="42" startBytecode="2" endBytecode="2" sourcefile="dJointFeedback.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dJointFeedback" start="50" end="50" startBytecode="1" endBytecode="1" sourcefile="dJointFeedback.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dJointFeedback" start="26" end="26" startBytecode="1" endBytecode="1" sourcefile="dJointFeedback.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dJointFeedback" start="30" end="30" startBytecode="30" endBytecode="30" sourcefile="dJointFeedback.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dJointFeedback" start="28" end="28" startBytecode="22" endBytecode="22" sourcefile="dJointFeedback.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dJointFeedback" start="59" end="59" startBytecode="1" endBytecode="1" sourcefile="dJointFeedback.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dJointFeedback" start="77" end="77" startBytecode="1" endBytecode="1" sourcefile="dJointFeedback.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dJointFeedback" start="38" end="38" startBytecode="1" endBytecode="1" sourcefile="dJointFeedback.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dJointFeedback" start="64" end="64" startBytecode="1" endBytecode="1" sourcefile="dJointFeedback.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dJointFeedback" start="73" end="73" startBytecode="1" endBytecode="1" sourcefile="dJointFeedback.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dJointFeedback" start="68" end="68" startBytecode="1" endBytecode="1" sourcefile="dJointFeedback.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+  </BugInstance>
+  <BugInstance type="NM_CLASS_NAMING_CONVENTION" priority="2" abbrev="Nm" category="STYLE" uid="52" active="1114497614026-1114497614026,1118324292259-1118324292259">
+    <Class classname="org.odejava.ode.dJointFeedback"/>
+  </BugInstance>
+  <BugInstance type="IS2_INCONSISTENT_SYNC" priority="3" abbrev="IS2" category="MT_CORRECTNESS" uid="80" active="1114497614026-1114497614026,1118324292259-1118324292259">
+    <Class classname="org.odejava.ode.dMass"/>
+    <Field classname="org.odejava.ode.dMass" name="swigCPtr" signature="J" isStatic="false"/>
+    <Int value="92" role="INT_SYNC_PERCENT"/>
+    <SourceLine classname="org.odejava.ode.dMass" start="34" end="34" startBytecode="9" endBytecode="9" sourcefile="dMass.java" role="SOURCE_LINE_UNSYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dMass" start="58" end="58" startBytecode="1" endBytecode="1" sourcefile="dMass.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dMass" start="42" end="42" startBytecode="2" endBytecode="2" sourcefile="dMass.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dMass" start="72" end="72" startBytecode="1" endBytecode="1" sourcefile="dMass.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dMass" start="26" end="26" startBytecode="1" endBytecode="1" sourcefile="dMass.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dMass" start="30" end="30" startBytecode="30" endBytecode="30" sourcefile="dMass.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dMass" start="28" end="28" startBytecode="22" endBytecode="22" sourcefile="dMass.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dMass" start="38" end="38" startBytecode="1" endBytecode="1" sourcefile="dMass.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dMass" start="50" end="50" startBytecode="1" endBytecode="1" sourcefile="dMass.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dMass" start="67" end="67" startBytecode="1" endBytecode="1" sourcefile="dMass.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dMass" start="46" end="46" startBytecode="1" endBytecode="1" sourcefile="dMass.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dMass" start="54" end="54" startBytecode="1" endBytecode="1" sourcefile="dMass.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dMass" start="63" end="63" startBytecode="1" endBytecode="1" sourcefile="dMass.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+  </BugInstance>
+  <BugInstance type="NM_CLASS_NAMING_CONVENTION" priority="2" abbrev="Nm" category="STYLE" uid="53" active="1114497614026-1114497614026,1118324292259-1118324292259">
+    <Class classname="org.odejava.ode.dMass"/>
+  </BugInstance>
+  <BugInstance type="IS2_INCONSISTENT_SYNC" priority="3" abbrev="IS2" category="MT_CORRECTNESS" uid="78" active="1114497614026-1114497614026,1118324292259-1118324292259">
+    <Class classname="org.odejava.ode.dSurfaceParameters"/>
+    <Field classname="org.odejava.ode.dSurfaceParameters" name="swigCPtr" signature="J" isStatic="false"/>
+    <Int value="96" role="INT_SYNC_PERCENT"/>
+    <SourceLine classname="org.odejava.ode.dSurfaceParameters" start="34" end="34" startBytecode="9" endBytecode="9" sourcefile="dSurfaceParameters.java" role="SOURCE_LINE_UNSYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dSurfaceParameters" start="70" end="70" startBytecode="1" endBytecode="1" sourcefile="dSurfaceParameters.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dSurfaceParameters" start="26" end="26" startBytecode="1" endBytecode="1" sourcefile="dSurfaceParameters.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dSurfaceParameters" start="30" end="30" startBytecode="30" endBytecode="30" sourcefile="dSurfaceParameters.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dSurfaceParameters" start="28" end="28" startBytecode="22" endBytecode="22" sourcefile="dSurfaceParameters.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dSurfaceParameters" start="90" end="90" startBytecode="1" endBytecode="1" sourcefile="dSurfaceParameters.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dSurfaceParameters" start="38" end="38" startBytecode="1" endBytecode="1" sourcefile="dSurfaceParameters.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dSurfaceParameters" start="54" end="54" startBytecode="1" endBytecode="1" sourcefile="dSurfaceParameters.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dSurfaceParameters" start="58" end="58" startBytecode="1" endBytecode="1" sourcefile="dSurfaceParameters.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dSurfaceParameters" start="106" end="106" startBytecode="1" endBytecode="1" sourcefile="dSurfaceParameters.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dSurfaceParameters" start="42" end="42" startBytecode="2" endBytecode="2" sourcefile="dSurfaceParameters.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dSurfaceParameters" start="46" end="46" startBytecode="1" endBytecode="1" sourcefile="dSurfaceParameters.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dSurfaceParameters" start="126" end="126" startBytecode="1" endBytecode="1" sourcefile="dSurfaceParameters.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dSurfaceParameters" start="130" end="130" startBytecode="1" endBytecode="1" sourcefile="dSurfaceParameters.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dSurfaceParameters" start="102" end="102" startBytecode="1" endBytecode="1" sourcefile="dSurfaceParameters.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dSurfaceParameters" start="98" end="98" startBytecode="1" endBytecode="1" sourcefile="dSurfaceParameters.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dSurfaceParameters" start="114" end="114" startBytecode="1" endBytecode="1" sourcefile="dSurfaceParameters.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dSurfaceParameters" start="118" end="118" startBytecode="1" endBytecode="1" sourcefile="dSurfaceParameters.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dSurfaceParameters" start="82" end="82" startBytecode="1" endBytecode="1" sourcefile="dSurfaceParameters.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dSurfaceParameters" start="62" end="62" startBytecode="1" endBytecode="1" sourcefile="dSurfaceParameters.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dSurfaceParameters" start="86" end="86" startBytecode="1" endBytecode="1" sourcefile="dSurfaceParameters.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dSurfaceParameters" start="74" end="74" startBytecode="1" endBytecode="1" sourcefile="dSurfaceParameters.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dSurfaceParameters" start="50" end="50" startBytecode="1" endBytecode="1" sourcefile="dSurfaceParameters.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dSurfaceParameters" start="66" end="66" startBytecode="1" endBytecode="1" sourcefile="dSurfaceParameters.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dSurfaceParameters" start="110" end="110" startBytecode="1" endBytecode="1" sourcefile="dSurfaceParameters.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dSurfaceParameters" start="94" end="94" startBytecode="1" endBytecode="1" sourcefile="dSurfaceParameters.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dSurfaceParameters" start="122" end="122" startBytecode="1" endBytecode="1" sourcefile="dSurfaceParameters.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+    <SourceLine classname="org.odejava.ode.dSurfaceParameters" start="78" end="78" startBytecode="1" endBytecode="1" sourcefile="dSurfaceParameters.java" role="SOURCE_LINE_SYNC_ACCESS"/>
+  </BugInstance>
+  <BugInstance type="NM_CLASS_NAMING_CONVENTION" priority="2" abbrev="Nm" category="STYLE" uid="54" active="1114497614026-1114497614026,1118324292259-1118324292259">
+    <Class classname="org.odejava.ode.dSurfaceParameters"/>
+  </BugInstance>
+  <Errors></Errors>
+  <FindBugsSummary timestamp="Thu, 9 Jun 2005 15:38:20 +0200" total_classes="0" total_bugs="0" total_size="0" num_packages="0"></FindBugsSummary>
+</BugCollection>

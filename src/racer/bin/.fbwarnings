@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="0.8.8" timestamp="1114497542463">
+  <Project filename="&lt;&lt;unnamed project&gt;&gt;">
+    <Jar>/home/tommy/workspace/racer/bin/CarHandler.class</Jar>
+    <Jar>/home/tommy/workspace/racer/bin/FileUtils.class</Jar>
+    <Jar>/home/tommy/workspace/racer/bin/Logo.class</Jar>
+    <Jar>/home/tommy/workspace/racer/bin/ModelLoader.class</Jar>
+    <Jar>/home/tommy/workspace/racer/bin/Racer.class</Jar>
+    <Jar>/home/tommy/workspace/racer/bin/RectGauge.class</Jar>
+    <Jar>/home/tommy/workspace/racer/bin/RoundGauge.class</Jar>
+    <Jar>/home/tommy/workspace/racer/bin/VBOutil.class</Jar>
+    <Jar>/home/tommy/workspace/racer/bin/VertexUtil.class</Jar>
+    <Jar>/home/tommy/workspace/racer/bin/carPhysicsCallback.class</Jar>
+    <Jar>/home/tommy/workspace/racer/bin/camera/CameraHandler.class</Jar>
+    <Jar>/home/tommy/workspace/racer/bin/camera/SphericalMouseLook.class</Jar>
+    <Jar>/home/tommy/workspace/racer/bin/inputActions/CarAccelerate.class</Jar>
+    <Jar>/home/tommy/workspace/racer/bin/inputActions/CarBrake.class</Jar>
+    <Jar>/home/tommy/workspace/racer/bin/inputActions/CarClutch.class</Jar>
+    <Jar>/home/tommy/workspace/racer/bin/inputActions/CarReset.class</Jar>
+    <Jar>/home/tommy/workspace/racer/bin/inputActions/CarReverse.class</Jar>
+    <Jar>/home/tommy/workspace/racer/bin/inputActions/CarShiftDown.class</Jar>
+    <Jar>/home/tommy/workspace/racer/bin/inputActions/CarShiftUp.class</Jar>
+    <Jar>/home/tommy/workspace/racer/bin/inputActions/CarTurnLeft.class</Jar>
+    <Jar>/home/tommy/workspace/racer/bin/inputActions/CarTurnRight.class</Jar>
+    <Jar>/home/tommy/workspace/racer/bin/inputActions/Toggle.class</Jar>
+    <AuxClasspathEntry>/home/tommy/workspace/racer/bin</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/tommy/workspace/racer/jogg-0.0.5.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/tommy/workspace/racer/jorbis-0.0.12.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/tommy/workspace/jme/bin</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/tommy/workspace/jme/lib/jogg-0.0.5.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/tommy/workspace/jme/lib/jorbis-0.0.12.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/tommy/workspace/jme/lib/tritonus_share.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/tommy/workspace/jme/lib/vorbisspi1.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/tommy/workspace/lwjgl/bin</AuxClasspathEntry>
+    <AuxClasspathEntry>/home/tommy/workspace/jmephysics/bin</AuxClasspathEntry>
+  </Project>
+  <BugInstance type="UPM_UNCALLED_PRIVATE_METHOD" priority="3" abbrev="UPM" category="PERFORMANCE" uid="44" active="1114497542463-1114497542463,1118324144680-1118324144680">
+    <Class classname="CarHandler"/>
+    <Method classname="CarHandler" name="initMouse" signature="()V">
+      <SourceLine classname="CarHandler" start="95" end="103" startBytecode="0" endBytecode="58" sourcefile="CarHandler.java"/>
+    </Method>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" abbrev="UuF" category="PERFORMANCE" uid="50" active="1114497542463-1114497542463,1118324144680-1118324144680">
+    <Class classname="CarHandler"/>
+    <Field classname="CarHandler" name="key" signature="Lcom/jme/input/KeyInput;" isStatic="false"/>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" abbrev="UuF" category="PERFORMANCE" uid="51" active="1114497542463-1114497542463,1118324144680-1118324144680">
+    <Class classname="FileUtils"/>
+    <Field classname="FileUtils" name="class$0" signature="Ljava/lang/Class;" isStatic="true"/>
+  </BugInstance>
+  <BugInstance type="NP_NULL_ON_SOME_PATH_EXCEPTION" priority="3" abbrev="NP" category="CORRECTNESS" uid="45" active="1114497542463-1114497542463,1118324144680-1118324144680">
+    <Class classname="ModelLoader"/>
+    <Method classname="ModelLoader" name="loadModel" signature="(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)Lcom/jme/scene/Node;">
+      <SourceLine classname="ModelLoader" start="25" end="45" startBytecode="0" endBytecode="69" sourcefile="ModelLoader.java"/>
+    </Method>
+    <SourceLine classname="ModelLoader" start="44" end="44" startBytecode="156" endBytecode="156" sourcefile="ModelLoader.java"/>
+  </BugInstance>
+  <BugInstance type="DM_EXIT" priority="2" abbrev="Dm" category="CORRECTNESS" uid="46" active="1114497542463-1114497542463,1118324144680-1118324144680">
+    <Class classname="Racer"/>
+    <Method classname="Racer" name="initSystem" signature="()V">
+      <SourceLine classname="Racer" start="687" end="723" startBytecode="0" endBytecode="274" sourcefile="Racer.java"/>
+    </Method>
+    <SourceLine classname="Racer" start="709" end="709" startBytecode="135" endBytecode="135" sourcefile="Racer.java"/>
+  </BugInstance>
+  <BugInstance type="FE_FLOATING_POINT_EQUALITY" priority="3" abbrev="FE" category="CORRECTNESS" uid="47" active="1114497542463-1114497542463,1118324144680-1118324144680">
+    <Class classname="Racer"/>
+    <Method classname="Racer" name="finishResetLogic" signature="()V">
+      <SourceLine classname="Racer" start="367" end="390" startBytecode="0" endBytecode="208" sourcefile="Racer.java"/>
+    </Method>
+    <SourceLine classname="Racer" start="374" end="374" startBytecode="92" endBytecode="92" sourcefile="Racer.java"/>
+  </BugInstance>
+  <BugInstance type="FE_FLOATING_POINT_EQUALITY" priority="3" abbrev="FE" category="CORRECTNESS" uid="48" active="1114497542463-1114497542463,1118324144680-1118324144680">
+    <Class classname="Racer"/>
+    <Method classname="Racer" name="finishResetLogic" signature="()V">
+      <SourceLine classname="Racer" start="367" end="390" startBytecode="0" endBytecode="208" sourcefile="Racer.java"/>
+    </Method>
+    <SourceLine classname="Racer" start="375" end="375" startBytecode="110" endBytecode="110" sourcefile="Racer.java"/>
+  </BugInstance>
+  <BugInstance type="FE_FLOATING_POINT_EQUALITY" priority="3" abbrev="FE" category="CORRECTNESS" uid="49" active="1114497542463-1114497542463,1118324144680-1118324144680">
+    <Class classname="Racer"/>
+    <Method classname="Racer" name="finishResetLogic" signature="()V">
+      <SourceLine classname="Racer" start="367" end="390" startBytecode="0" endBytecode="208" sourcefile="Racer.java"/>
+    </Method>
+    <SourceLine classname="Racer" start="376" end="376" startBytecode="128" endBytecode="128" sourcefile="Racer.java"/>
+  </BugInstance>
+  <BugInstance type="FE_FLOATING_POINT_EQUALITY" priority="3" abbrev="FE" category="CORRECTNESS" uid="52" active="1114497542463-1114497542463,1118324144680-1118324144680">
+    <Class classname="Racer"/>
+    <Method classname="Racer" name="finishResetLogic" signature="()V">
+      <SourceLine classname="Racer" start="367" end="390" startBytecode="0" endBytecode="208" sourcefile="Racer.java"/>
+    </Method>
+    <SourceLine classname="Racer" start="378" end="378" startBytecode="146" endBytecode="146" sourcefile="Racer.java"/>
+  </BugInstance>
+  <BugInstance type="FE_FLOATING_POINT_EQUALITY" priority="3" abbrev="FE" category="CORRECTNESS" uid="53" active="1114497542463-1114497542463,1118324144680-1118324144680">
+    <Class classname="Racer"/>
+    <Method classname="Racer" name="finishResetLogic" signature="()V">
+      <SourceLine classname="Racer" start="367" end="390" startBytecode="0" endBytecode="208" sourcefile="Racer.java"/>
+    </Method>
+    <SourceLine classname="Racer" start="379" end="379" startBytecode="164" endBytecode="164" sourcefile="Racer.java"/>
+  </BugInstance>
+  <BugInstance type="FE_FLOATING_POINT_EQUALITY" priority="3" abbrev="FE" category="CORRECTNESS" uid="54" active="1114497542463-1114497542463,1118324144680-1118324144680">
+    <Class classname="Racer"/>
+    <Method classname="Racer" name="finishResetLogic" signature="()V">
+      <SourceLine classname="Racer" start="367" end="390" startBytecode="0" endBytecode="208" sourcefile="Racer.java"/>
+    </Method>
+    <SourceLine classname="Racer" start="380" end="380" startBytecode="182" endBytecode="182" sourcefile="Racer.java"/>
+  </BugInstance>
+  <BugInstance type="FE_FLOATING_POINT_EQUALITY" priority="3" abbrev="FE" category="CORRECTNESS" uid="55" active="1114497542463-1114497542463,1118324144680-1118324144680">
+    <Class classname="Racer"/>
+    <Method classname="Racer" name="finishResetLogic" signature="()V">
+      <SourceLine classname="Racer" start="367" end="390" startBytecode="0" endBytecode="208" sourcefile="Racer.java"/>
+    </Method>
+    <SourceLine classname="Racer" start="381" end="381" startBytecode="200" endBytecode="200" sourcefile="Racer.java"/>
+  </BugInstance>
+  <BugInstance type="NM_FIELD_NAMING_CONVENTION" priority="3" abbrev="Nm" category="STYLE" uid="56" active="1114497542463-1114497542463,1118324144680-1118324144680">
+    <Class classname="Racer"/>
+    <Field classname="Racer" name="ClutchGauge" signature="LRectGauge;" isStatic="false"/>
+  </BugInstance>
+  <BugInstance type="NM_FIELD_NAMING_CONVENTION" priority="3" abbrev="Nm" category="STYLE" uid="57" active="1114497542463-1114497542463,1118324144680-1118324144680">
+    <Class classname="Racer"/>
+    <Field classname="Racer" name="SpeedGauge" signature="LRoundGauge;" isStatic="false"/>
+  </BugInstance>
+  <BugInstance type="ST_WRITE_TO_STATIC_FROM_INSTANCE_METHOD" priority="3" abbrev="ST" category="STYLE" uid="58" active="1114497542463-1114497542463,1118324144680-1118324144680">
+    <Class classname="Racer"/>
+    <Method classname="Racer" name="initGame" signature="()V">
+      <SourceLine classname="Racer" start="741" end="809" startBytecode="0" endBytecode="237" sourcefile="Racer.java"/>
+    </Method>
+    <Field classname="com.jme.math.FastMath" name="USE_FAST_TRIG" signature="Z" isStatic="true"/>
+    <SourceLine classname="Racer" start="757" end="757" startBytecode="83" endBytecode="83" sourcefile="Racer.java"/>
+  </BugInstance>
+  <BugInstance type="ST_WRITE_TO_STATIC_FROM_INSTANCE_METHOD" priority="3" abbrev="ST" category="STYLE" uid="59" active="1114497542463-1114497542463,1118324144680-1118324144680">
+    <Class classname="Racer"/>
+    <Method classname="Racer" name="update" signature="(F)V">
+      <SourceLine classname="Racer" start="198" end="241" startBytecode="0" endBytecode="255" sourcefile="Racer.java"/>
+    </Method>
+    <Field classname="Racer" name="fps_logic" signature="I" isStatic="true"/>
+    <SourceLine classname="Racer" start="203" end="203" startBytecode="43" endBytecode="43" sourcefile="Racer.java"/>
+  </BugInstance>
+  <BugInstance type="ST_WRITE_TO_STATIC_FROM_INSTANCE_METHOD" priority="3" abbrev="ST" category="STYLE" uid="60" active="1114497542463-1114497542463,1118324144680-1118324144680">
+    <Class classname="Racer"/>
+    <Method classname="Racer" name="update" signature="(F)V">
+      <SourceLine classname="Racer" start="198" end="241" startBytecode="0" endBytecode="255" sourcefile="Racer.java"/>
+    </Method>
+    <Field classname="Racer" name="stopTime_logic" signature="J" isStatic="true"/>
+    <SourceLine classname="Racer" start="199" end="199" startBytecode="11" endBytecode="11" sourcefile="Racer.java"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" abbrev="UrF" category="PERFORMANCE" uid="53" active="1114497542463-1114497542463,1118324144680-1118324144680">
+    <Class classname="Racer"/>
+    <Field classname="Racer" name="guiNode" signature="Lcom/jme/scene/Node;" isStatic="false"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" abbrev="UrF" category="PERFORMANCE" uid="54" active="1114497542463-1114497542463,1118324144680-1118324144680">
+    <Class classname="Racer"/>
+    <Field classname="Racer" name="l" signature="Lcom/jme/scene/Line;" isStatic="false"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" abbrev="UrF" category="PERFORMANCE" uid="55" active="1114497542463-1114497542463,1118324144680-1118324144680">
+    <Class classname="Racer"/>
+    <Field classname="Racer" name="mySpecialConsoleCounter" signature="I" isStatic="false"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" abbrev="UrF" category="PERFORMANCE" uid="56" active="1114497542463-1114497542463,1118324144680-1118324144680">
+    <Class classname="Racer"/>
+    <Field classname="Racer" name="raceFinished" signature="Z" isStatic="false"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" abbrev="UrF" category="PERFORMANCE" uid="57" active="1114497542463-1114497542463,1118324144680-1118324144680">
+    <Class classname="Racer"/>
+    <Field classname="Racer" name="road" signature="Lcom/jme/scene/Spatial;" isStatic="false"/>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" abbrev="UuF" category="PERFORMANCE" uid="52" active="1114497542463-1114497542463,1118324144680-1118324144680">
+    <Class classname="Racer"/>
+    <Field classname="Racer" name="class$0" signature="Ljava/lang/Class;" isStatic="true"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" abbrev="UrF" category="PERFORMANCE" uid="58" active="1114497542463-1114497542463,1118324144680-1118324144680">
+    <Class classname="RectGauge"/>
+    <Field classname="RectGauge" name="correctionAngle" signature="F" isStatic="false"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" abbrev="UrF" category="PERFORMANCE" uid="59" active="1114497542463-1114497542463,1118324144680-1118324144680">
+    <Class classname="RectGauge"/>
+    <Field classname="RectGauge" name="gaugeRange" signature="F" isStatic="false"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" abbrev="UrF" category="PERFORMANCE" uid="60" active="1114497542463-1114497542463,1118324144680-1118324144680">
+    <Class classname="RectGauge"/>
+    <Field classname="RectGauge" name="startPoint" signature="F" isStatic="false"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="3" abbrev="DLS" category="STYLE" uid="61" active="1114497542463-1114497542463,1118324144680-1118324144680">
+    <Class classname="VertexUtil"/>
+    <Method classname="VertexUtil" name="smoothNormals" signature="(Lcom/jme/scene/Spatial;ZZ)V">
+      <SourceLine classname="VertexUtil" start="305" end="604" startBytecode="0" endBytecode="757" sourcefile="VertexUtil.java"/>
+    </Method>
+    <SourceLine classname="VertexUtil" start="385" end="385" startBytecode="304" endBytecode="304" sourcefile="VertexUtil.java"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="3" abbrev="DLS" category="STYLE" uid="62" active="1114497542463-1114497542463,1118324144680-1118324144680">
+    <Class classname="camera.CameraHandler"/>
+    <Method classname="camera.CameraHandler" name="update" signature="(F)V">
+      <SourceLine classname="camera.CameraHandler" start="160" end="341" startBytecode="0" endBytecode="285" sourcefile="CameraHandler.java"/>
+    </Method>
+    <SourceLine classname="camera.CameraHandler" start="190" end="190" startBytecode="175" endBytecode="175" sourcefile="CameraHandler.java"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" abbrev="UrF" category="PERFORMANCE" uid="61" active="1114497542463-1114497542463,1118324144680-1118324144680">
+    <Class classname="camera.CameraHandler"/>
+    <Field classname="camera.CameraHandler" name="numSamples" signature="I" isStatic="false"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" abbrev="UrF" category="PERFORMANCE" uid="62" active="1114497542463-1114497542463,1118324144680-1118324144680">
+    <Class classname="camera.CameraHandler"/>
+    <Field classname="camera.CameraHandler" name="oldNumSamples" signature="I" isStatic="false"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" abbrev="UrF" category="PERFORMANCE" uid="63" active="1114497542463-1114497542463,1118324144680-1118324144680">
+    <Class classname="camera.CameraHandler"/>
+    <Field classname="camera.CameraHandler" name="prevPositionsCounter" signature="I" isStatic="false"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" abbrev="UrF" category="PERFORMANCE" uid="64" active="1114497542463-1114497542463,1118324144680-1118324144680">
+    <Class classname="camera.CameraHandler"/>
+    <Field classname="camera.CameraHandler" name="tmpDistance" signature="Lcom/jme/math/Vector3f;" isStatic="false"/>
+  </BugInstance>
+  <BugInstance type="URF_UNREAD_FIELD" priority="2" abbrev="UrF" category="PERFORMANCE" uid="65" active="1114497542463-1114497542463,1118324144680-1118324144680">
+    <Class classname="camera.CameraHandler"/>
+    <Field classname="camera.CameraHandler" name="tmpPosition" signature="Lcom/jme/math/Vector3f;" isStatic="false"/>
+  </BugInstance>
+  <BugInstance type="UWF_FIELD_NOT_INITIALIZED_IN_CONSTRUCTOR" priority="3" abbrev="UwF" category="STYLE" uid="66" active="1114497542463-1114497542463,1118324144680-1118324144680">
+    <Class classname="camera.CameraHandler"/>
+    <Field classname="camera.CameraHandler" name="followTarget" signature="Lcom/jme/scene/Spatial;" isStatic="false"/>
+  </BugInstance>
+  <BugInstance type="UWF_FIELD_NOT_INITIALIZED_IN_CONSTRUCTOR" priority="3" abbrev="UwF" category="STYLE" uid="67" active="1114497542463-1114497542463,1118324144680-1118324144680">
+    <Class classname="camera.CameraHandler"/>
+    <Field classname="camera.CameraHandler" name="lookAtTarget" signature="Lcom/jme/scene/Spatial;" isStatic="false"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" abbrev="DLS" category="STYLE" uid="68" active="1114497542463-1114497542463,1118324144680-1118324144680">
+    <Class classname="carPhysicsCallback"/>
+    <Method classname="carPhysicsCallback" name="drawInfoStuff" signature="()V">
+      <SourceLine classname="carPhysicsCallback" start="145" end="244" startBytecode="0" endBytecode="549" sourcefile="carPhysicsCallback.java"/>
+    </Method>
+    <SourceLine classname="carPhysicsCallback" start="222" end="222" startBytecode="870" endBytecode="870" sourcefile="carPhysicsCallback.java"/>
+  </BugInstance>
+  <BugInstance type="NM_CLASS_NAMING_CONVENTION" priority="2" abbrev="Nm" category="STYLE" uid="69" active="1114497542463-1114497542463,1118324144680-1118324144680">
+    <Class classname="carPhysicsCallback"/>
+  </BugInstance>
+  <BugInstance type="NP_UNWRITTEN_FIELD" priority="2" abbrev="NP" category="CORRECTNESS" uid="70" active="1114497542463-1114497542463,1118324144680-1118324144680">
+    <Class classname="carPhysicsCallback"/>
+    <Method classname="carPhysicsCallback" name="drawInfoStuff" signature="()V">
+      <SourceLine classname="carPhysicsCallback" start="145" end="244" startBytecode="0" endBytecode="1041" sourcefile="carPhysicsCallback.java"/>
+    </Method>
+    <SourceLine classname="carPhysicsCallback" start="173" end="173" startBytecode="277" endBytecode="277" sourcefile="carPhysicsCallback.java"/>
+  </BugInstance>
+  <BugInstance type="NP_UNWRITTEN_FIELD" priority="2" abbrev="NP" category="CORRECTNESS" uid="71" active="1114497542463-1114497542463,1118324144680-1118324144680">
+    <Class classname="carPhysicsCallback"/>
+    <Method classname="carPhysicsCallback" name="drawInfoStuff" signature="()V">
+      <SourceLine classname="carPhysicsCallback" start="145" end="244" startBytecode="0" endBytecode="1041" sourcefile="carPhysicsCallback.java"/>
+    </Method>
+    <SourceLine classname="carPhysicsCallback" start="174" end="174" startBytecode="295" endBytecode="295" sourcefile="carPhysicsCallback.java"/>
+  </BugInstance>
+  <BugInstance type="NP_UNWRITTEN_FIELD" priority="2" abbrev="NP" category="CORRECTNESS" uid="72" active="1114497542463-1114497542463,1118324144680-1118324144680">
+    <Class classname="carPhysicsCallback"/>
+    <Method classname="carPhysicsCallback" name="drawInfoStuff" signature="()V">
+      <SourceLine classname="carPhysicsCallback" start="145" end="244" startBytecode="0" endBytecode="1041" sourcefile="carPhysicsCallback.java"/>
+    </Method>
+    <SourceLine classname="carPhysicsCallback" start="175" end="175" startBytecode="313" endBytecode="313" sourcefile="carPhysicsCallback.java"/>
+  </BugInstance>
+  <BugInstance type="NP_UNWRITTEN_FIELD" priority="2" abbrev="NP" category="CORRECTNESS" uid="73" active="1114497542463-1114497542463,1118324144680-1118324144680">
+    <Class classname="carPhysicsCallback"/>
+    <Method classname="carPhysicsCallback" name="drawInfoStuff" signature="()V">
+      <SourceLine classname="carPhysicsCallback" start="145" end="244" startBytecode="0" endBytecode="1041" sourcefile="carPhysicsCallback.java"/>
+    </Method>
+    <SourceLine classname="carPhysicsCallback" start="179" end="179" startBytecode="365" endBytecode="365" sourcefile="carPhysicsCallback.java"/>
+  </BugInstance>
+  <BugInstance type="NP_UNWRITTEN_FIELD" priority="2" abbrev="NP" category="CORRECTNESS" uid="74" active="1114497542463-1114497542463,1118324144680-1118324144680">
+    <Class classname="carPhysicsCallback"/>
+    <Method classname="carPhysicsCallback" name="drawInfoStuff" signature="()V">
+      <SourceLine classname="carPhysicsCallback" start="145" end="244" startBytecode="0" endBytecode="1041" sourcefile="carPhysicsCallback.java"/>
+    </Method>
+    <SourceLine classname="carPhysicsCallback" start="180" end="180" startBytecode="388" endBytecode="388" sourcefile="carPhysicsCallback.java"/>
+  </BugInstance>
+  <BugInstance type="NP_UNWRITTEN_FIELD" priority="2" abbrev="NP" category="CORRECTNESS" uid="75" active="1114497542463-1114497542463,1118324144680-1118324144680">
+    <Class classname="carPhysicsCallback"/>
+    <Method classname="carPhysicsCallback" name="drawInfoStuff" signature="()V">
+      <SourceLine classname="carPhysicsCallback" start="145" end="244" startBytecode="0" endBytecode="1041" sourcefile="carPhysicsCallback.java"/>
+    </Method>
+    <SourceLine classname="carPhysicsCallback" start="181" end="181" startBytecode="411" endBytecode="411" sourcefile="carPhysicsCallback.java"/>
+  </BugInstance>
+  <BugInstance type="NP_UNWRITTEN_FIELD" priority="2" abbrev="NP" category="CORRECTNESS" uid="76" active="1114497542463-1114497542463,1118324144680-1118324144680">
+    <Class classname="carPhysicsCallback"/>
+    <Method classname="carPhysicsCallback" name="drawInfoStuff" signature="()V">
+      <SourceLine classname="carPhysicsCallback" start="145" end="244" startBytecode="0" endBytecode="1041" sourcefile="carPhysicsCallback.java"/>
+    </Method>
+    <SourceLine classname="carPhysicsCallback" start="194" end="194" startBytecode="522" endBytecode="522" sourcefile="carPhysicsCallback.java"/>
+  </BugInstance>
+  <BugInstance type="NP_UNWRITTEN_FIELD" priority="2" abbrev="NP" category="CORRECTNESS" uid="77" active="1114497542463-1114497542463,1118324144680-1118324144680">
+    <Class classname="carPhysicsCallback"/>
+    <Method classname="carPhysicsCallback" name="drawInfoStuff" signature="()V">
+      <SourceLine classname="carPhysicsCallback" start="145" end="244" startBytecode="0" endBytecode="1041" sourcefile="carPhysicsCallback.java"/>
+    </Method>
+    <SourceLine classname="carPhysicsCallback" start="195" end="195" startBytecode="540" endBytecode="540" sourcefile="carPhysicsCallback.java"/>
+  </BugInstance>
+  <BugInstance type="NP_UNWRITTEN_FIELD" priority="2" abbrev="NP" category="CORRECTNESS" uid="78" active="1114497542463-1114497542463,1118324144680-1118324144680">
+    <Class classname="carPhysicsCallback"/>
+    <Method classname="carPhysicsCallback" name="drawInfoStuff" signature="()V">
+      <SourceLine classname="carPhysicsCallback" start="145" end="244" startBytecode="0" endBytecode="1041" sourcefile="carPhysicsCallback.java"/>
+    </Method>
+    <SourceLine classname="carPhysicsCallback" start="196" end="196" startBytecode="558" endBytecode="558" sourcefile="carPhysicsCallback.java"/>
+  </BugInstance>
+  <BugInstance type="NP_UNWRITTEN_FIELD" priority="2" abbrev="NP" category="CORRECTNESS" uid="79" active="1114497542463-1114497542463,1118324144680-1118324144680">
+    <Class classname="carPhysicsCallback"/>
+    <Method classname="carPhysicsCallback" name="drawInfoStuff" signature="()V">
+      <SourceLine classname="carPhysicsCallback" start="145" end="244" startBytecode="0" endBytecode="1041" sourcefile="carPhysicsCallback.java"/>
+    </Method>
+    <SourceLine classname="carPhysicsCallback" start="200" end="200" startBytecode="610" endBytecode="610" sourcefile="carPhysicsCallback.java"/>
+  </BugInstance>
+  <BugInstance type="NP_UNWRITTEN_FIELD" priority="2" abbrev="NP" category="CORRECTNESS" uid="80" active="1114497542463-1114497542463,1118324144680-1118324144680">
+    <Class classname="carPhysicsCallback"/>
+    <Method classname="carPhysicsCallback" name="drawInfoStuff" signature="()V">
+      <SourceLine classname="carPhysicsCallback" start="145" end="244" startBytecode="0" endBytecode="1041" sourcefile="carPhysicsCallback.java"/>
+    </Method>
+    <SourceLine classname="carPhysicsCallback" start="201" end="201" startBytecode="633" endBytecode="633" sourcefile="carPhysicsCallback.java"/>
+  </BugInstance>
+  <BugInstance type="NP_UNWRITTEN_FIELD" priority="2" abbrev="NP" category="CORRECTNESS" uid="81" active="1114497542463-1114497542463,1118324144680-1118324144680">
+    <Class classname="carPhysicsCallback"/>
+    <Method classname="carPhysicsCallback" name="drawInfoStuff" signature="()V">
+      <SourceLine classname="carPhysicsCallback" start="145" end="244" startBytecode="0" endBytecode="1041" sourcefile="carPhysicsCallback.java"/>
+    </Method>
+    <SourceLine classname="carPhysicsCallback" start="202" end="202" startBytecode="656" endBytecode="656" sourcefile="carPhysicsCallback.java"/>
+  </BugInstance>
+  <BugInstance type="NP_UNWRITTEN_FIELD" priority="2" abbrev="NP" category="CORRECTNESS" uid="47" active="1114497542463-1114497542463,1118324144680-1118324144680">
+    <Class classname="carPhysicsCallback"/>
+    <Method classname="carPhysicsCallback" name="drawInfoStuff" signature="()V">
+      <SourceLine classname="carPhysicsCallback" start="145" end="244" startBytecode="0" endBytecode="1041" sourcefile="carPhysicsCallback.java"/>
+    </Method>
+    <SourceLine classname="carPhysicsCallback" start="215" end="215" startBytecode="767" endBytecode="767" sourcefile="carPhysicsCallback.java"/>
+  </BugInstance>
+  <BugInstance type="NP_UNWRITTEN_FIELD" priority="2" abbrev="NP" category="CORRECTNESS" uid="46" active="1114497542463-1114497542463,1118324144680-1118324144680">
+    <Class classname="carPhysicsCallback"/>
+    <Method classname="carPhysicsCallback" name="drawInfoStuff" signature="()V">
+      <SourceLine classname="carPhysicsCallback" start="145" end="244" startBytecode="0" endBytecode="1041" sourcefile="carPhysicsCallback.java"/>
+    </Method>
+    <SourceLine classname="carPhysicsCallback" start="216" end="216" startBytecode="785" endBytecode="785" sourcefile="carPhysicsCallback.java"/>
+  </BugInstance>
+  <BugInstance type="NP_UNWRITTEN_FIELD" priority="2" abbrev="NP" category="CORRECTNESS" uid="45" active="1114497542463-1114497542463,1118324144680-1118324144680">
+    <Class classname="carPhysicsCallback"/>
+    <Method classname="carPhysicsCallback" name="drawInfoStuff" signature="()V">
+      <SourceLine classname="carPhysicsCallback" start="145" end="244" startBytecode="0" endBytecode="1041" sourcefile="carPhysicsCallback.java"/>
+    </Method>
+    <SourceLine classname="carPhysicsCallback" start="217" end="217" startBytecode="803" endBytecode="803" sourcefile="carPhysicsCallback.java"/>
+  </BugInstance>
+  <BugInstance type="NP_UNWRITTEN_FIELD" priority="2" abbrev="NP" category="CORRECTNESS" uid="48" active="1114497542463-1114497542463,1118324144680-1118324144680">
+    <Class classname="carPhysicsCallback"/>
+    <Method classname="carPhysicsCallback" name="drawInfoStuff" signature="()V">
+      <SourceLine classname="carPhysicsCallback" start="145" end="244" startBytecode="0" endBytecode="1041" sourcefile="carPhysicsCallback.java"/>
+    </Method>
+    <SourceLine classname="carPhysicsCallback" start="221" end="221" startBytecode="839" endBytecode="839" sourcefile="carPhysicsCallback.java"/>
+  </BugInstance>
+  <BugInstance type="NP_UNWRITTEN_FIELD" priority="2" abbrev="NP" category="CORRECTNESS" uid="82" active="1114497542463-1114497542463,1118324144680-1118324144680">
+    <Class classname="carPhysicsCallback"/>
+    <Method classname="carPhysicsCallback" name="drawInfoStuff" signature="()V">
+      <SourceLine classname="carPhysicsCallback" start="145" end="244" startBytecode="0" endBytecode="1041" sourcefile="carPhysicsCallback.java"/>
+    </Method>
+    <SourceLine classname="carPhysicsCallback" start="227" end="227" startBytecode="898" endBytecode="898" sourcefile="carPhysicsCallback.java"/>
+  </BugInstance>
+  <BugInstance type="NP_UNWRITTEN_FIELD" priority="2" abbrev="NP" category="CORRECTNESS" uid="44" active="1114497542463-1114497542463,1118324144680-1118324144680">
+    <Class classname="carPhysicsCallback"/>
+    <Method classname="carPhysicsCallback" name="drawInfoStuff" signature="()V">
+      <SourceLine classname="carPhysicsCallback" start="145" end="244" startBytecode="0" endBytecode="1041" sourcefile="carPhysicsCallback.java"/>
+    </Method>
+    <SourceLine classname="carPhysicsCallback" start="228" end="228" startBytecode="921" endBytecode="921" sourcefile="carPhysicsCallback.java"/>
+  </BugInstance>
+  <BugInstance type="NP_UNWRITTEN_FIELD" priority="2" abbrev="NP" category="CORRECTNESS" uid="83" active="1114497542463-1114497542463,1118324144680-1118324144680">
+    <Class classname="carPhysicsCallback"/>
+    <Method classname="carPhysicsCallback" name="drawInfoStuff" signature="()V">
+      <SourceLine classname="carPhysicsCallback" start="145" end="244" startBytecode="0" endBytecode="1041" sourcefile="carPhysicsCallback.java"/>
+    </Method>
+    <SourceLine classname="carPhysicsCallback" start="229" end="229" startBytecode="944" endBytecode="944" sourcefile="carPhysicsCallback.java"/>
+  </BugInstance>
+  <BugInstance type="ST_WRITE_TO_STATIC_FROM_INSTANCE_METHOD" priority="1" abbrev="ST" category="STYLE" uid="84" active="1114497542463-1114497542463,1118324144680-1118324144680">
+    <Class classname="carPhysicsCallback"/>
+    <Method classname="carPhysicsCallback" name="onContact" signature="(Lcom/jmex/physics/PhysicsObject;Lcom/jmex/physics/PhysicsObject;Lorg/odejava/collision/Contact;)V">
+      <SourceLine classname="carPhysicsCallback" start="29" end="132" startBytecode="0" endBytecode="418" sourcefile="carPhysicsCallback.java"/>
+    </Method>
+    <Field classname="carPhysicsCallback" name="mu" signature="F" isStatic="true"/>
+    <SourceLine classname="carPhysicsCallback" start="30" end="30" startBytecode="7" endBytecode="7" sourcefile="carPhysicsCallback.java"/>
+  </BugInstance>
+  <BugInstance type="ST_WRITE_TO_STATIC_FROM_INSTANCE_METHOD" priority="1" abbrev="ST" category="STYLE" uid="85" active="1114497542463-1114497542463,1118324144680-1118324144680">
+    <Class classname="carPhysicsCallback"/>
+    <Method classname="carPhysicsCallback" name="onContact" signature="(Lcom/jmex/physics/PhysicsObject;Lcom/jmex/physics/PhysicsObject;Lorg/odejava/collision/Contact;)V">
+      <SourceLine classname="carPhysicsCallback" start="29" end="132" startBytecode="0" endBytecode="418" sourcefile="carPhysicsCallback.java"/>
+    </Method>
+    <Field classname="carPhysicsCallback" name="mu2" signature="F" isStatic="true"/>
+    <SourceLine classname="carPhysicsCallback" start="29" end="29" startBytecode="2" endBytecode="2" sourcefile="carPhysicsCallback.java"/>
+  </BugInstance>
+  <BugInstance type="ST_WRITE_TO_STATIC_FROM_INSTANCE_METHOD" priority="1" abbrev="ST" category="STYLE" uid="86" active="1114497542463-1114497542463,1118324144680-1118324144680">
+    <Class classname="carPhysicsCallback"/>
+    <Method classname="carPhysicsCallback" name="onContact" signature="(Lcom/jmex/physics/PhysicsObject;Lcom/jmex/physics/PhysicsObject;Lorg/odejava/collision/Contact;)V">
+      <SourceLine classname="carPhysicsCallback" start="29" end="132" startBytecode="0" endBytecode="418" sourcefile="carPhysicsCallback.java"/>
+    </Method>
+    <Field classname="carPhysicsCallback" name="slip1" signature="F" isStatic="true"/>
+    <SourceLine classname="carPhysicsCallback" start="31" end="31" startBytecode="12" endBytecode="12" sourcefile="carPhysicsCallback.java"/>
+  </BugInstance>
+  <BugInstance type="ST_WRITE_TO_STATIC_FROM_INSTANCE_METHOD" priority="1" abbrev="ST" category="STYLE" uid="87" active="1114497542463-1114497542463,1118324144680-1118324144680">
+    <Class classname="carPhysicsCallback"/>
+    <Method classname="carPhysicsCallback" name="onContact" signature="(Lcom/jmex/physics/PhysicsObject;Lcom/jmex/physics/PhysicsObject;Lorg/odejava/collision/Contact;)V">
+      <SourceLine classname="carPhysicsCallback" start="29" end="132" startBytecode="0" endBytecode="418" sourcefile="carPhysicsCallback.java"/>
+    </Method>
+    <Field classname="carPhysicsCallback" name="slip2" signature="F" isStatic="true"/>
+    <SourceLine classname="carPhysicsCallback" start="34" end="34" startBytecode="22" endBytecode="22" sourcefile="carPhysicsCallback.java"/>
+  </BugInstance>
+  <BugInstance type="ST_WRITE_TO_STATIC_FROM_INSTANCE_METHOD" priority="1" abbrev="ST" category="STYLE" uid="88" active="1114497542463-1114497542463,1118324144680-1118324144680">
+    <Class classname="carPhysicsCallback"/>
+    <Method classname="carPhysicsCallback" name="onContact" signature="(Lcom/jmex/physics/PhysicsObject;Lcom/jmex/physics/PhysicsObject;Lorg/odejava/collision/Contact;)V">
+      <SourceLine classname="carPhysicsCallback" start="29" end="132" startBytecode="0" endBytecode="418" sourcefile="carPhysicsCallback.java"/>
+    </Method>
+    <Field classname="carPhysicsCallback" name="slip2Factor" signature="F" isStatic="true"/>
+    <SourceLine classname="carPhysicsCallback" start="32" end="32" startBytecode="17" endBytecode="17" sourcefile="carPhysicsCallback.java"/>
+  </BugInstance>
+  <BugInstance type="ST_WRITE_TO_STATIC_FROM_INSTANCE_METHOD" priority="2" abbrev="ST" category="STYLE" uid="89" active="1114497542463-1114497542463,1118324144680-1118324144680">
+    <Class classname="carPhysicsCallback"/>
+    <Method classname="carPhysicsCallback" name="onContact" signature="(Lcom/jmex/physics/PhysicsObject;Lcom/jmex/physics/PhysicsObject;Lorg/odejava/collision/Contact;)V">
+      <SourceLine classname="carPhysicsCallback" start="29" end="132" startBytecode="0" endBytecode="418" sourcefile="carPhysicsCallback.java"/>
+    </Method>
+    <Field classname="carPhysicsCallback" name="slip2" signature="F" isStatic="true"/>
+    <SourceLine classname="carPhysicsCallback" start="56" end="56" startBytecode="86" endBytecode="86" sourcefile="carPhysicsCallback.java"/>
+  </BugInstance>
+  <BugInstance type="UWF_UNWRITTEN_FIELD" priority="1" abbrev="UwF" category="CORRECTNESS" uid="90" active="1114497542463-1114497542463,1118324144680-1118324144680">
+    <Class classname="carPhysicsCallback"/>
+    <Field classname="carPhysicsCallback" name="tw2" signature="Lcom/jmex/physics/PhysicsObject;" isStatic="true"/>
+  </BugInstance>
+  <BugInstance type="UWF_UNWRITTEN_FIELD" priority="1" abbrev="UwF" category="CORRECTNESS" uid="91" active="1114497542463-1114497542463,1118324144680-1118324144680">
+    <Class classname="carPhysicsCallback"/>
+    <Field classname="carPhysicsCallback" name="tw3" signature="Lcom/jmex/physics/PhysicsObject;" isStatic="true"/>
+  </BugInstance>
+  <BugInstance type="UWF_UNWRITTEN_FIELD" priority="1" abbrev="UwF" category="CORRECTNESS" uid="49" active="1114497542463-1114497542463,1118324144680-1118324144680">
+    <Class classname="carPhysicsCallback"/>
+    <Field classname="carPhysicsCallback" name="tw4" signature="Lcom/jmex/physics/PhysicsObject;" isStatic="true"/>
+  </BugInstance>
+  <BugInstance type="UWF_UNWRITTEN_FIELD" priority="2" abbrev="UwF" category="CORRECTNESS" uid="92" active="1114497542463-1114497542463,1118324144680-1118324144680">
+    <Class classname="carPhysicsCallback"/>
+    <Field classname="carPhysicsCallback" name="tw1" signature="Lcom/jmex/physics/PhysicsObject;" isStatic="true"/>
+  </BugInstance>
+  <Errors></Errors>
+  <FindBugsSummary timestamp="Thu, 9 Jun 2005 15:35:50 +0200" total_classes="0" total_bugs="44" total_size="0" num_packages="2" priority_3="15" priority_2="29">
+    <PackageStats package="camera" total_bugs="8" total_types="1" total_size="0" priority_3="6" priority_2="2">
+      <ClassStats class="camera.CameraHandler" interface="false" size="0" bugs="8" priority_3="6" priority_2="2"/>
+    </PackageStats>
+    <PackageStats package="" total_bugs="36" total_types="3" total_size="0" priority_3="9" priority_2="27">
+      <ClassStats class="CarHandler" interface="false" size="0" bugs="15" priority_2="15"/>
+      <ClassStats class="ModelLoader" interface="false" size="0" bugs="1" priority_3="1"/>
+      <ClassStats class="Racer" interface="false" size="0" bugs="20" priority_3="8" priority_2="12"/>
+    </PackageStats>
+  </FindBugsSummary>
+</BugCollection>

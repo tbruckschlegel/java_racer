@@ -1,0 +1,28 @@
+/Widget.java/1.7/Thu Apr 22 22:27:11 2004//
+/WidgetAbstractContainer.java/1.16/Thu Oct 14 01:23:06 2004//
+/WidgetAbstractFrame.java/1.8/Thu Apr 22 22:27:11 2004//
+/WidgetAbstractImpl.java/1.6/Thu Apr 22 22:27:12 2004//
+/WidgetAlignmentType.java/1.4/Thu Apr 22 22:27:12 2004//
+/WidgetExpander.java/1.2/Thu Apr 22 22:27:12 2004//
+/WidgetFillType.java/1.3/Thu Apr 22 22:27:12 2004//
+/WidgetInsets.java/1.2/Thu Apr 22 22:27:12 2004//
+/WidgetOrientationType.java/1.3/Thu Apr 22 22:27:12 2004//
+/WidgetRenderer.java/1.2/Thu Apr 22 22:27:13 2004//
+/WidgetTextureCoords.java/1.2/Thu Apr 22 22:27:13 2004//
+D/border////
+D/bounds////
+D/button////
+D/font////
+D/image////
+D/impl////
+D/input////
+D/layout////
+D/lookandfeel////
+D/panel////
+D/renderer////
+D/scroller////
+D/slider////
+D/test////
+D/text////
+D/util////
+D/viewport////

@@ -1,0 +1,10 @@
+*.iml
+javadoc
+jmephysics.jnlp
+deploy
+bin
+build
+.classpath
+.project
+debug.txt
+properties.cfg
