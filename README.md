@@ -1,4 +1,4 @@
-# JAVA baes 3D Racing Game (1/4 mile racing) - Windows & Linux (2004)
+# JAVA based 3D Racing Game (1/4 mile racing) - Windows & Linux (2004)
 This game is a work in progress contractor job in 2004 for German !["Speed Days"](https://www.takt-magazin.de/magazin/speeddays_211078) - but never got released.
 It still runs fine at 4K with 120 Hz ;)
 
